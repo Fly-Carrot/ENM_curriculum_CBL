@@ -354,6 +354,70 @@ display: none;
 
 <div id="enm-curriculum-for-beginners" class="section level1">
 <h1>ENM Curriculum for Beginners</h1>
+<div id="day-0-environment-setup-toolchain-installation-and-course-asset-preparation" class="section level2">
+<h2>Day 0: Environment Setup, Toolchain Installation, and Course Asset
+Preparation</h2>
+<ul>
+<li><strong>1. Scientific Computing &amp; Geospatial Software
+Toolchain</strong>
+<ul>
+<li>Installing the core statistical environment: <strong>R</strong>
+(&gt;= 4.3) and <strong>RStudio Desktop</strong> (or VS Code with R
+extension).</li>
+<li>Installing Java Development Kit (<strong>JDK</strong> 11/17/21,
+matching system architecture) for <code>rJava</code> and standalone
+MaxEnt.</li>
+<li>Setting up Geographic Information System (GIS):
+<strong>QGIS</strong> (LTM release) for spatial vector and raster
+inspection.</li>
+<li>Installing version control tools: <strong>Git</strong> and GUI
+client (<strong>Fork</strong> / GitHub Desktop).</li>
+<li>Deploying standalone <strong>MaxEnt</strong>
+(<code>maxent.jar</code> v3.4.4+) into R library paths.</li>
+</ul></li>
+<li><strong>2. Repository Cloning &amp; Standard Directory
+Architecture</strong>
+<ul>
+<li>Cloning the official course repository from GitHub
+(<code>https://github.com/qiaohj/ENM_curriculum</code>).</li>
+<li>Establishing the standardized reproducible directory structure
+(<code>Data/</code>, <code>Figures/</code>, <code>Scripts/</code>,
+<code>Output/</code>).</li>
+</ul></li>
+<li><strong>3. Automated R Package Installation &amp; Dependency
+Resolution</strong>
+<ul>
+<li>Installing core spatial engines: <code>terra</code>,
+<code>sf</code>, <code>geodata</code>, <code>rnaturalearth</code>,
+<code>rnaturalearthdata</code>, <code>units</code>.</li>
+<li>Installing data wrangling &amp; visualization libraries:
+<code>data.table</code>, <code>ggplot2</code>, <code>patchwork</code>,
+<code>ggrepel</code>, <code>viridis</code>.</li>
+<li>Installing ecological modeling frameworks: <code>ENMeval</code>,
+<code>biomod2</code>, <code>dismo</code>, <code>maxnet</code>,
+<code>mgcv</code>, <code>randomForest</code>, <code>ecospat</code>.</li>
+<li>Testing and validating Java integration via
+<code>rJava::.jinit()</code>.</li>
+</ul></li>
+<li><strong>4. Course Datasets &amp; Baseline Environmental Asset
+Downloads</strong>
+<ul>
+<li>Downloading global bioclimatic rasters (<strong>WorldClim</strong>
+v2.1: 19 BioClim layers at 10m, 5m, and 30s resolutions).</li>
+<li>Downloading auxiliary spatial layers: Digital Elevation Model
+(SRTM/GMTED2010), Land Cover, and Global Continents basemap.</li>
+<li>Downloading curated species occurrence records (GBIF clean exports)
+and expert range maps (IUCN Red List Spatial Data) from the course
+repository / Figshare repository
+(<code>https://doi.org/10.6084/m9.figshare.XXXXXXX</code>).</li>
+</ul></li>
+<li><strong>5. System Environment &amp; Toolchain Self-Test</strong>
+<ul>
+<li>Running an automated diagnostic R script to verify GDAL, GEOS, PROJ,
+and Java backends.</li>
+</ul></li>
+</ul>
+</div>
 <div id="day-1-create-your-first-sdm-in-r-end-to-end-workflow" class="section level2">
 <h2>Day 1: Create your first SDM in R (End-to-End Workflow)</h2>
 <ul>

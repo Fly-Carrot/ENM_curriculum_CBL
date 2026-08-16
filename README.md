@@ -1,5 +1,27 @@
 # ENM Curriculum for Beginners
 
+## Day 0: Environment Setup, Toolchain Installation, and Course Asset Preparation
++ **1. Scientific Computing & Geospatial Software Toolchain**
+  + Installing the core statistical environment: **R** (>= 4.3) and **RStudio Desktop** (or VS Code with R extension).
+  + Installing Java Development Kit (**JDK** 11/17/21, matching system architecture) for `rJava` and standalone MaxEnt.
+  + Setting up Geographic Information System (GIS): **QGIS** (LTM release) for spatial vector and raster inspection.
+  + Installing version control tools: **Git** and GUI client (**Fork** / GitHub Desktop).
+  + Deploying standalone **MaxEnt** (`maxent.jar` v3.4.4+) into R library paths.
++ **2. Repository Cloning & Standard Directory Architecture**
+  + Cloning the official course repository from GitHub (`https://github.com/qiaohj/ENM_curriculum`).
+  + Establishing the standardized reproducible directory structure (`Data/`, `Figures/`, `Scripts/`, `Output/`).
++ **3. Automated R Package Installation & Dependency Resolution**
+  + Installing core spatial engines: `terra`, `sf`, `geodata`, `rnaturalearth`, `rnaturalearthdata`, `units`.
+  + Installing data wrangling & visualization libraries: `data.table`, `ggplot2`, `patchwork`, `ggrepel`, `viridis`.
+  + Installing ecological modeling frameworks: `ENMeval`, `biomod2`, `dismo`, `maxnet`, `mgcv`, `randomForest`, `ecospat`.
+  + Testing and validating Java integration via `rJava::.jinit()`.
++ **4. Course Datasets & Baseline Environmental Asset Downloads**
+  + Downloading global bioclimatic rasters (**WorldClim** v2.1: 19 BioClim layers at 10m, 5m, and 30s resolutions).
+  + Downloading auxiliary spatial layers: Digital Elevation Model (SRTM/GMTED2010), Land Cover, and Global Continents basemap.
+  + Downloading curated species occurrence records (GBIF clean exports) and expert range maps (IUCN Red List Spatial Data) from the course repository / Figshare repository (`https://doi.org/10.6084/m9.figshare.XXXXXXX`).
++ **5. System Environment & Toolchain Self-Test**
+  + Running an automated diagnostic R script to verify GDAL, GEOS, PROJ, and Java backends.
+  
 ## Day 1: Create your first SDM in R (End-to-End Workflow)
 + **1. Downloading the occurrences**
   + Fetching *Grus japonensis* (Red-crowned crane) data from GBIF 
