@@ -245,3 +245,44 @@
     + *China* (Temperate to Subtropical Gradient)
   + Plotting multi-panel diagnostic maps combining geographic boundaries, G-Space distributions, and E-Space occupancy.
   + Overlaying regional climate envelopes onto global background space to demonstrate realized climatic constraints.
+  
+## Day 14: Modeling Species Abundance (Count Data), Ensembles, and Reproducible Reporting (*biomod2*)
++ **1. Beyond Binary Data: Modeling Count and Abundance Data**
+  + Transitioning from Presence/Absence ($0/1$) to continuous Count Data (`data.type = "count"`).
+  + Structuring temporal evaluation: Splitting multi-year monitoring surveys (*DataSTOC*, e.g., 2006–2011 calibration vs. 2012–2017 independent evaluation).
+  + Formatting multi-temporal count responses and environmental predictors with `BIOMOD_FormatingData`.
++ **2. Multi-Algorithm Ensemble for Abundance Modeling**
+  + Fitting regression and machine learning algorithms: Deep Neural Networks (`DNN`), Gradient Boosting (`GBM`), Generalized Linear Models (`GLM`), Multivariate Adaptive Regression Splines (`MARS`), Random Forests (`RF`), and `XGBOOST`.
+  + Applying Spatial Block cross-validation (`CV.strategy = "block"`) and standardized tuning parameter presets (`OPT.strategy = "bigboss"`).
+  + Assessing continuous model metrics: $R^2$, Adjusted $R^2$, and Root Mean Square Error (`RMSE`).
++ **3. Model Diagnostics, Variable Importance, and Response Curves**
+  + Quantifying permutation-based variable importance across models and cross-validation runs (`bm_PlotVarImpBoxplot`).
+  + Comparing model calibration vs. validation performance distributions (`bm_PlotEvalBoxplot`).
+  + Visualizing univariate and bivariate environmental response curves (`bm_PlotResponseCurves`).
+  + Diagnostic inspection of model residuals and spatial outliers (`bm_ModelAnalysis`).
++ **4. Multi-Temporal Projections and Range Size Dynamics**
+  + Projecting fitted count models onto calibration (Period 1) and evaluation (Period 2) environmental states (`BIOMOD_Projection`).
+  + Tracking novel environmental boundaries and clamping masks (`build.clamping.mask = TRUE`).
+  + Quantifying temporal range changes, stability, and shifts across models using `BIOMOD_RangeSize`.
++ **5. Reproducibility and Standardized Model Reporting**
+  + Exporting automated modeling summary and code audit reports (`BIOMOD_Report`).
+  + Generating standardized **ODMAP** (Overview, Data, Model, Assessment, and Prediction) protocol tables for academic publication compliance.
+
+## Day 15: Expert Range Validation (IUCN Ranges), Maxent Feature Constraints, Model Tuning (*ENMeval*), and Geometric Envelopes
++ **1. Expert Range Mapping and Spatial Quality Control**
+  + Decoding IUCN Red List attribute codes (`PRESENCE` and `SEASONAL` categories).
+  + Filtering target native and breeding ranges for *Grus japonensis*.
+  + Topological point-in-polygon validation (`st_contains`) and buffer sensitivity analysis (`st_buffer` with *units*).
++ **2. Feature Class Constraints and Maxent Complexity**
+  + Comparing projection behavior across discrete feature combinations: Linear (`L`), Quadratic (`Q`), Product (`P`), and full model setups.
+  + Diagnosing geographic suitability patterns under constrained vs. unconstrained feature spaces.
++ **3. Automated Model Tuning and Model Selection via *ENMeval***
+  + Extracting bioclimatic predictors and removing `NA` values across occurrence and background sets.
+  + Evaluating parameter grids across Feature Classes (`fc`: L, Q, P, LQ, QP) and Regularization Multipliers (`rm`: 0.1, 1.0, 10.0).
+  + Identifying optimal model balance using AICc vs. Training AUC pareto fronts with *ggrepel*.
++ **4. Sensitivity Analysis of Predictor Subsets and Background Sizes**
+  + Comparing full bioclimatic predictions against reduced models (`bio1` and `bio12`).
+  + Assessing suitability surface sensitivity across varying background sample densities (e.g., 100 background points vs. standard samples).
++ **5. Spatial Geometric Envelopes and Centroid Dynamics**
+  + Decomposing multipart shapes into discrete polygons (`st_cast`).
+  + Constructing minimum bounding convex hulls (`st_convex_hull`) and tracking geographic centroid shifts (`st_centroid`).

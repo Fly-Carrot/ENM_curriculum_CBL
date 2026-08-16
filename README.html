@@ -887,6 +887,121 @@ to demonstrate realized climatic constraints.</li>
 </ul></li>
 </ul>
 </div>
+<div id="day-14-modeling-species-abundance-count-data-ensembles-and-reproducible-reporting-biomod2" class="section level2">
+<h2>Day 14: Modeling Species Abundance (Count Data), Ensembles, and
+Reproducible Reporting (<em>biomod2</em>)</h2>
+<ul>
+<li><strong>1. Beyond Binary Data: Modeling Count and Abundance
+Data</strong>
+<ul>
+<li>Transitioning from Presence/Absence (<span class="math inline">\(0/1\)</span>) to continuous Count Data
+(<code>data.type = &quot;count&quot;</code>).</li>
+<li>Structuring temporal evaluation: Splitting multi-year monitoring
+surveys (<em>DataSTOC</em>, e.g., 2006–2011 calibration vs. 2012–2017
+independent evaluation).</li>
+<li>Formatting multi-temporal count responses and environmental
+predictors with <code>BIOMOD_FormatingData</code>.</li>
+</ul></li>
+<li><strong>2. Multi-Algorithm Ensemble for Abundance Modeling</strong>
+<ul>
+<li>Fitting regression and machine learning algorithms: Deep Neural
+Networks (<code>DNN</code>), Gradient Boosting (<code>GBM</code>),
+Generalized Linear Models (<code>GLM</code>), Multivariate Adaptive
+Regression Splines (<code>MARS</code>), Random Forests
+(<code>RF</code>), and <code>XGBOOST</code>.</li>
+<li>Applying Spatial Block cross-validation
+(<code>CV.strategy = &quot;block&quot;</code>) and standardized tuning parameter
+presets (<code>OPT.strategy = &quot;bigboss&quot;</code>).</li>
+<li>Assessing continuous model metrics: <span class="math inline">\(R^2\)</span>, Adjusted <span class="math inline">\(R^2\)</span>, and Root Mean Square Error
+(<code>RMSE</code>).</li>
+</ul></li>
+<li><strong>3. Model Diagnostics, Variable Importance, and Response
+Curves</strong>
+<ul>
+<li>Quantifying permutation-based variable importance across models and
+cross-validation runs (<code>bm_PlotVarImpBoxplot</code>).</li>
+<li>Comparing model calibration vs. validation performance distributions
+(<code>bm_PlotEvalBoxplot</code>).</li>
+<li>Visualizing univariate and bivariate environmental response curves
+(<code>bm_PlotResponseCurves</code>).</li>
+<li>Diagnostic inspection of model residuals and spatial outliers
+(<code>bm_ModelAnalysis</code>).</li>
+</ul></li>
+<li><strong>4. Multi-Temporal Projections and Range Size
+Dynamics</strong>
+<ul>
+<li>Projecting fitted count models onto calibration (Period 1) and
+evaluation (Period 2) environmental states
+(<code>BIOMOD_Projection</code>).</li>
+<li>Tracking novel environmental boundaries and clamping masks
+(<code>build.clamping.mask = TRUE</code>).</li>
+<li>Quantifying temporal range changes, stability, and shifts across
+models using <code>BIOMOD_RangeSize</code>.</li>
+</ul></li>
+<li><strong>5. Reproducibility and Standardized Model Reporting</strong>
+<ul>
+<li>Exporting automated modeling summary and code audit reports
+(<code>BIOMOD_Report</code>).</li>
+<li>Generating standardized <strong>ODMAP</strong> (Overview, Data,
+Model, Assessment, and Prediction) protocol tables for academic
+publication compliance.</li>
+</ul></li>
+</ul>
+</div>
+<div id="day-15-expert-range-validation-iucn-ranges-maxent-feature-constraints-model-tuning-enmeval-and-geometric-envelopes" class="section level2">
+<h2>Day 15: Expert Range Validation (IUCN Ranges), Maxent Feature
+Constraints, Model Tuning (<em>ENMeval</em>), and Geometric
+Envelopes</h2>
+<ul>
+<li><strong>1. Expert Range Mapping and Spatial Quality Control</strong>
+<ul>
+<li>Decoding IUCN Red List attribute codes (<code>PRESENCE</code> and
+<code>SEASONAL</code> categories).</li>
+<li>Filtering target native and breeding ranges for <em>Grus
+japonensis</em>.</li>
+<li>Topological point-in-polygon validation (<code>st_contains</code>)
+and buffer sensitivity analysis (<code>st_buffer</code> with
+<em>units</em>).</li>
+</ul></li>
+<li><strong>2. Feature Class Constraints and Maxent Complexity</strong>
+<ul>
+<li>Comparing projection behavior across discrete feature combinations:
+Linear (<code>L</code>), Quadratic (<code>Q</code>), Product
+(<code>P</code>), and full model setups.</li>
+<li>Diagnosing geographic suitability patterns under constrained
+vs. unconstrained feature spaces.</li>
+</ul></li>
+<li><strong>3. Automated Model Tuning and Model Selection via
+<em>ENMeval</em></strong>
+<ul>
+<li>Extracting bioclimatic predictors and removing <code>NA</code>
+values across occurrence and background sets.</li>
+<li>Evaluating parameter grids across Feature Classes (<code>fc</code>:
+L, Q, P, LQ, QP) and Regularization Multipliers (<code>rm</code>: 0.1,
+1.0, 10.0).</li>
+<li>Identifying optimal model balance using AICc vs. Training AUC pareto
+fronts with <em>ggrepel</em>.</li>
+</ul></li>
+<li><strong>4. Sensitivity Analysis of Predictor Subsets and Background
+Sizes</strong>
+<ul>
+<li>Comparing full bioclimatic predictions against reduced models
+(<code>bio1</code> and <code>bio12</code>).</li>
+<li>Assessing suitability surface sensitivity across varying background
+sample densities (e.g., 100 background points vs. standard
+samples).</li>
+</ul></li>
+<li><strong>5. Spatial Geometric Envelopes and Centroid
+Dynamics</strong>
+<ul>
+<li>Decomposing multipart shapes into discrete polygons
+(<code>st_cast</code>).</li>
+<li>Constructing minimum bounding convex hulls
+(<code>st_convex_hull</code>) and tracking geographic centroid shifts
+(<code>st_centroid</code>).</li>
+</ul></li>
+</ul>
+</div>
 </div>
 
 
