@@ -25,16 +25,16 @@ stages$mid <- (stages$start + stages$end) / 2
 
 # 4. 顶部事件：气候转型、冰期与古环境事件
 top_events <- data.frame(
-  Ma = c(3.20, 2.70, 0.90, 0.021, 0.012),
+  Ma = c(3.20, 2.70, 0.90, 0.120, 0.021),
   label = c(
     "中上新世暖期 (mPWP)\n(+2~3°C 类似现代变暖)", 
     "北半球大冰期全面启动\n(NHG / 巴拿马地峡闭合)", 
     "中更新世气候转型 (MPT)\n(41 kyr 转变为 100 kyr 周期)", 
-    "末次盛冰期\n(LGM)", 
-    "新仙女木事件\n(YD 骤冷)"
+    "末次间冰期\n(LIG)", 
+    "末次盛冰期\n(LGM)"
   ),
-  y_start = c(20.5, 21.0, 20.5, 21.2, 19.8),
-  y_end   = c(17.5, 16.8, 16.5, 15.0, 15.2)
+  y_start = c(20.5, 21.0, 20.5, 21.2,  15.2)-10,
+  y_end   = c(17.5, 16.8, 16.5, 15.0, 15.0)-10
 )
 
 # 5. 底部事件：古人类演化与古生物/文明技术事件
@@ -47,8 +47,8 @@ bottom_events <- data.frame(
     "解剖学现代人\n(智人) 起源", 
     "农业起源\n与定居文明"
   ),
-  y_start = c(7.0, 6.0, 7.2, 6.0, 7.5),
-  y_end   = c(9.5, 9.8, 10.0, 10.5, 11.2)
+  y_start = c(7.0, 6.0, 7.2, 6.0, 7.5)-15,
+  y_end   = c(9.5, 9.8, 10.0, 10.5, 11.2)-15
 )
 
 # 6. 绘图
@@ -56,7 +56,7 @@ p <- ggplot() +
   # 背景世 (Epoch) 填充
   geom_rect(
     data = epochs, 
-    aes(xmin = start, xmax = end, ymin = 5, ymax = 23, fill = epoch),
+    aes(xmin = start, xmax = end, ymin = 5, ymax = 13, fill = epoch),
     alpha = 0.08, show.legend = FALSE
   ) +
   # 阶段垂直分割线
@@ -64,7 +64,8 @@ p <- ggplot() +
   geom_vline(xintercept = epochs$start, color = "gray50", linetype = "dashed", linewidth = 0.6) +
   
   # 温度/古气候曲线 (如果使用真实数据，取消下一行注释)
-  geom_line(data = dt36_df[variable=="T"], aes(x = mya, y = mean_value), color = "#d95f02", linewidth = 0.9) +
+  geom_line(data = dt36_df[variable=="T"], aes(x = mya, y = mean_value), 
+            color = "#d95f02", linewidth = 0.9) +
   
   # 顶部事件箭头与标注
   geom_segment(
@@ -94,11 +95,11 @@ p <- ggplot() +
   
   # 顶部地质年代标签
   geom_text(
-    data = epochs, aes(x = mid, y = 22.5, label = epoch), 
+    data = epochs, aes(x = mid, y = 13.5, label = epoch), 
     color = "gray20", fontface = "bold", size = 3.6
   ) +
   geom_text(
-    data = stages, aes(x = mid, y = 21.7, label = name), 
+    data = stages, aes(x = mid, y = 12.7, label = name), 
     color = "gray45", size = 2.3
   ) +
   
@@ -109,8 +110,8 @@ p <- ggplot() +
     labels = function(x) paste0(x, " Ma")
   ) +
   scale_y_continuous(
-    limits = c(-10, 24),
-    breaks = seq(6, 22, by = 2),
+    limits = c(-10, 14),
+    breaks = seq(-10, 12, by = 2),
     labels = function(y) paste0(y, " °C")
   ) +
   scale_fill_manual(values = c("上新世 (晚期)" = "#fed976", "更新世" = "#bdd7e7", "全新世" = "#a1d99b")) +
@@ -134,3 +135,4 @@ p <- ggplot() +
 # 显示并保存
 print(p)
 ggsave(p, filename = "../Figures/T_3.6Ma.png", width = 12, height = 6.5, dpi = 300)
+

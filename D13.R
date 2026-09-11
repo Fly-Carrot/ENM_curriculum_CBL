@@ -94,8 +94,8 @@ print(p_mollweide)
 
 # 2.1 Load continuous raster surfaces
 # Update paths to your local bioclimatic ASCII rasters as needed
-bio1  <- rast("../bioclim/bio1.asc")   # Annual Mean Temperature
-bio12 <- rast("../bioclim/bio12.asc")  # Annual Precipitation
+bio1  <- rast("../Data/bioclim/bio1.asc")   # Annual Mean Temperature
+bio12 <- rast("../Data/bioclim/bio12.asc")  # Annual Precipitation
 
 # Reproject raster to Azimuthal Equidistant CRS
 bio1_aeqd <- project(bio1, crs_aeqd_origin)
