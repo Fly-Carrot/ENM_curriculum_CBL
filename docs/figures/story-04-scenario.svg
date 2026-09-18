@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='518.74pt' height='260.79pt' viewBox='0 0 518.74 260.79'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw1MTguNzR8MC4wMHwyNjAuNzk='>
+    <rect x='0.00' y='0.00' width='518.74' height='260.79' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw1MTguNzR8MC4wMHwyNjAuNzk=)'>
+<rect x='0.00' y='0.00' width='518.74' height='260.79' style='stroke-width: 0.87; stroke: #FFFFFF; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpOTAuOTh8NDk0LjgzfDUwLjY1fDIxMC4zNQ=='>
+    <rect x='90.98' y='50.65' width='403.85' height='159.70' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpOTAuOTh8NDk0LjgzfDUwLjY1fDIxMC4zNQ==)'>
+<rect x='90.98' y='50.65' width='403.85' height='159.70' style='stroke-width: 0.87; stroke: none; fill: #FFFFFF;' />
+<rect x='90.98' y='177.08' width='331.51' height='20.91' style='stroke-width: 0.87; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #A7B7BD;' />
+<rect x='90.98' y='63.01' width='126.00' height='20.91' style='stroke-width: 0.87; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #3F72A5;' />
+<rect x='90.98' y='101.03' width='220.71' height='20.91' style='stroke-width: 0.87; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #237F83;' />
+<rect x='90.98' y='139.06' width='56.05' height='20.91' style='stroke-width: 0.87; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C48143;' />
+<text x='425.74' y='190.70' style='font-size: 8.82px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='25.00px' lengthAdjust='spacingAndGlyphs'>45.1%</text>
+<text x='220.23' y='76.62' style='font-size: 8.82px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='25.00px' lengthAdjust='spacingAndGlyphs'>17.2%</text>
+<text x='314.94' y='114.65' style='font-size: 8.82px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='25.00px' lengthAdjust='spacingAndGlyphs'>30.1%</text>
+<text x='149.64' y='152.67' style='font-size: 8.82px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='20.09px' lengthAdjust='spacingAndGlyphs'>7.6%</text>
+</g>
+<g clip-path='url(#cpMC4wMHw1MTguNzR8MC4wMHwyNjAuNzk=)'>
+<polyline points='90.98,210.35 90.98,50.65 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: square;' />
+<text x='86.94' y='190.40' text-anchor='end' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='48.00px' lengthAdjust='spacingAndGlyphs'>两次都未入选</text>
+<text x='86.94' y='152.38' text-anchor='end' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='72.00px' lengthAdjust='spacingAndGlyphs'>原有、情景中未入选</text>
+<text x='86.94' y='114.36' text-anchor='end' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='40.00px' lengthAdjust='spacingAndGlyphs'>两次都入选</text>
+<text x='86.94' y='76.33' text-anchor='end' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='40.00px' lengthAdjust='spacingAndGlyphs'>情景中新增</text>
+<polyline points='88.74,187.54 90.98,187.54 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<polyline points='88.74,149.51 90.98,149.51 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<polyline points='88.74,111.49 90.98,111.49 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<polyline points='88.74,73.47 90.98,73.47 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<polyline points='90.98,210.35 494.83,210.35 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: square;' />
+<polyline points='90.98,212.59 90.98,210.35 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<polyline points='164.41,212.59 164.41,210.35 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<polyline points='237.83,212.59 237.83,210.35 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<polyline points='311.26,212.59 311.26,210.35 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<polyline points='384.69,212.59 384.69,210.35 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<polyline points='458.12,212.59 458.12,210.35 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<text x='90.98' y='220.12' text-anchor='middle' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='4.45px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='164.41' y='220.12' text-anchor='middle' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='8.91px' lengthAdjust='spacingAndGlyphs'>10</text>
+<text x='237.83' y='220.12' text-anchor='middle' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='8.91px' lengthAdjust='spacingAndGlyphs'>20</text>
+<text x='311.26' y='220.12' text-anchor='middle' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='8.91px' lengthAdjust='spacingAndGlyphs'>30</text>
+<text x='384.69' y='220.12' text-anchor='middle' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='8.91px' lengthAdjust='spacingAndGlyphs'>40</text>
+<text x='458.12' y='220.12' text-anchor='middle' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='8.91px' lengthAdjust='spacingAndGlyphs'>50</text>
+<text x='292.90' y='230.14' text-anchor='middle' style='font-size: 8.50px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='85.00px' lengthAdjust='spacingAndGlyphs'>研究范围内的面积比例</text>
+<text x='90.98' y='38.95' style='font-size: 8.30px;fill: #53636D; font-family: "Arial Unicode MS";' textLength='223.22px' lengthAdjust='spacingAndGlyphs'>课堂灵敏度试验：给 bio8 加 2°C，再按 0.25 的阈值重新分组</text>
+<text x='90.98' y='23.51' style='font-size: 12.00px;fill: #21313C; font-family: "Noto Sans Syriac";' textLength='204.00px' lengthAdjust='spacingAndGlyphs'>换一个环境情景，阈值地图会怎样变？</text>
+<text x='90.98' y='247.26' style='font-size: 7.50px;fill: #65737B; font-family: "Arial Unicode MS";' textLength='195.00px' lengthAdjust='spacingAndGlyphs'>面积比例按有效像元面积计算。这是人为设置的教学情景。</text>
+</g>
+</g>
+</svg>

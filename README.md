@@ -4,12 +4,13 @@
 
 ## 中文入口
 
-- [完整中文课程提纲（Day 0–15）](README.zh-CN.md)——与下方英文提纲逐日对照，保留原有结构。
+- [中文课程故事与逐日索引](README.zh-CN.md)——跟着一个生态问题读懂 Day 0–15，配有课程复现数据图。
+- [课程故事：图背后的问题](docs/课程故事.md)——把目标、模型、验证和外推连成一条线。
 - [学习导航：从生态问题走到模型地图](docs/学习导航.md)——按问题串起 D1–D15，并列出各脚本的输入与用途。
 - [方法理解：读懂模型输出与边界](docs/方法理解.md)——解释出现点、背景点、适宜性、验证和外推。
 - [来源与致谢](docs/来源与致谢.md)——分清原课程代码、我们的注释和外部数据。
 
-这些文档是学习材料。它们没有把课程演示自动升级为可直接用于管理决策的预测，也没有声称本仓库所有脚本都能在空白 R 会话中逐个独立运行。仓库没有随附 `Data/`、`Figures/` 等完整数据目录；运行前请先阅读[学习导航的准备说明](docs/学习导航.md#运行前先看这里)。
+想边读边动手，可以从[学习导航的准备说明](docs/学习导航.md#运行前先看这里)开始；新加入的图表也附有[数据和绘图代码](docs/figures/README.md)，方便逐张对照。
 
 ## Day 0: Environment Setup, Toolchain Installation, and Course Asset Preparation
 + **1. Scientific Computing & Geospatial Software Toolchain**
@@ -27,9 +28,9 @@
   + Installing ecological modeling frameworks: `ENMeval`, `biomod2`, `dismo`, `maxnet`, `mgcv`, `randomForest`, `ecospat`.
   + Testing and validating Java integration via `rJava::.jinit()`.
 + **4. Course Datasets & Baseline Environmental Asset Downloads**
-  + Downloading global bioclimatic rasters (**WorldClim** v2.1: 19 BioClim layers at 10m, 5m, and 30s resolutions).
+  + Downloading global bioclimatic rasters (**WorldClim** v2.1: 19 BioClim layers at 10m, 5m, 2.5m, and 30s resolutions).
   + Downloading auxiliary spatial layers: Digital Elevation Model (SRTM/GMTED2010), Land Cover, and Global Continents basemap.
-  + Downloading curated species occurrence records (GBIF clean exports) and expert range maps (IUCN Red List Spatial Data) from the course repository / Figshare repository (`https://doi.org/10.6084/m9.figshare.XXXXXXX`).
+  + Downloading curated species occurrence records (GBIF clean exports) and expert range maps (IUCN Red List Spatial Data) from the course repository / Figshare repository ([course dataset](https://doi.org/10.6084/m9.figshare.33453802)).
 + **5. System Environment & Toolchain Self-Test**
   + Running an automated diagnostic R script to verify GDAL, GEOS, PROJ, and Java backends.
   

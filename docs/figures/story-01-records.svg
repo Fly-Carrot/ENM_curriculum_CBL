@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='518.74pt' height='260.79pt' viewBox='0 0 518.74 260.79'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw1MTguNzR8MC4wMHwyNjAuNzk='>
+    <rect x='0.00' y='0.00' width='518.74' height='260.79' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw1MTguNzR8MC4wMHwyNjAuNzk=)'>
+<rect x='0.00' y='0.00' width='518.74' height='260.79' style='stroke-width: 0.87; stroke: #FFFFFF; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpNzQuOTh8NDk0LjgzfDUwLjY1fDIxMC4zNQ=='>
+    <rect x='74.98' y='50.65' width='419.85' height='159.70' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNzQuOTh8NDk0LjgzfDUwLjY1fDIxMC4zNQ==)'>
+<rect x='74.98' y='50.65' width='419.85' height='159.70' style='stroke-width: 0.87; stroke: none; fill: #FFFFFF;' />
+<rect x='74.98' y='67.12' width='361.82' height='26.95' style='stroke-width: 0.87; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #A7B7BD;' />
+<rect x='74.98' y='117.03' width='316.04' height='26.95' style='stroke-width: 0.87; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #3F72A5;' />
+<rect x='74.98' y='166.93' width='17.04' height='26.95' style='stroke-width: 0.87; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #237F83;' />
+<text x='439.45' y='83.75' style='font-size: 8.82px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='22.08px' lengthAdjust='spacingAndGlyphs'>7,239</text>
+<text x='393.67' y='133.66' style='font-size: 8.82px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='22.08px' lengthAdjust='spacingAndGlyphs'>6,323</text>
+<text x='93.79' y='183.57' style='font-size: 8.82px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='14.72px' lengthAdjust='spacingAndGlyphs'>341</text>
+</g>
+<g clip-path='url(#cpMC4wMHw1MTguNzR8MC4wMHwyNjAuNzk=)'>
+<polyline points='74.98,210.35 74.98,50.65 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: square;' />
+<text x='70.94' y='183.27' text-anchor='end' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='56.00px' lengthAdjust='spacingAndGlyphs'>每个像元留一条</text>
+<text x='70.94' y='133.37' text-anchor='end' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='56.00px' lengthAdjust='spacingAndGlyphs'>有气候值的像元</text>
+<text x='70.94' y='83.46' text-anchor='end' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='32.00px' lengthAdjust='spacingAndGlyphs'>原始记录</text>
+<polyline points='72.74,180.41 74.98,180.41 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<polyline points='72.74,130.50 74.98,130.50 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<polyline points='72.74,80.59 74.98,80.59 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<polyline points='74.98,210.35 494.83,210.35 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: square;' />
+<polyline points='74.98,212.59 74.98,210.35 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<polyline points='174.94,212.59 174.94,210.35 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<polyline points='274.91,212.59 274.91,210.35 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<polyline points='374.87,212.59 374.87,210.35 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<polyline points='474.84,212.59 474.84,210.35 ' style='stroke-width: 0.75; stroke: #A7B7BD; stroke-linecap: butt;' />
+<text x='74.98' y='220.12' text-anchor='middle' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='4.45px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='174.94' y='220.12' text-anchor='middle' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='20.03px' lengthAdjust='spacingAndGlyphs'>2,000</text>
+<text x='274.91' y='220.12' text-anchor='middle' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='20.03px' lengthAdjust='spacingAndGlyphs'>4,000</text>
+<text x='374.87' y='220.12' text-anchor='middle' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='20.03px' lengthAdjust='spacingAndGlyphs'>6,000</text>
+<text x='474.84' y='220.12' text-anchor='middle' style='font-size: 8.00px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='20.03px' lengthAdjust='spacingAndGlyphs'>8,000</text>
+<text x='284.90' y='230.14' text-anchor='middle' style='font-size: 8.50px;fill: #21313C; font-family: "Arial Unicode MS";' textLength='25.50px' lengthAdjust='spacingAndGlyphs'>记录数</text>
+<text x='74.98' y='38.95' style='font-size: 8.30px;fill: #53636D; font-family: "Arial Unicode MS";' textLength='215.72px' lengthAdjust='spacingAndGlyphs'>丹顶鹤示例：先找到有环境信息的位置，再按气候像元去重</text>
+<text x='74.98' y='23.51' style='font-size: 12.00px;fill: #21313C; font-family: "Noto Sans Syriac";' textLength='168.00px' lengthAdjust='spacingAndGlyphs'>一张分布图，从几千条记录开始</text>
+<text x='74.98' y='247.26' style='font-size: 7.50px;fill: #65737B; font-family: "Arial Unicode MS";' textLength='232.50px' lengthAdjust='spacingAndGlyphs'>每格留一条是为了减轻重复采样影响；被合并的记录不等于错误记录。</text>
+</g>
+</g>
+</svg>
