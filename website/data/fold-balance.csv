@@ -1,0 +1,26 @@
+Scheme,Fold,Type,N
+Checkerboard,1,Background,2490
+Checkerboard,1,Occurrence,186
+Checkerboard,2,Background,2510
+Checkerboard,2,Occurrence,155
+Hierarchical checkerboard,1,Background,1340
+Hierarchical checkerboard,1,Occurrence,114
+Hierarchical checkerboard,2,Background,1178
+Hierarchical checkerboard,2,Occurrence,53
+Hierarchical checkerboard,3,Background,1344
+Hierarchical checkerboard,3,Occurrence,114
+Hierarchical checkerboard,4,Background,1138
+Hierarchical checkerboard,4,Occurrence,60
+Random 4-Fold,1,Occurrence,85
+Random 4-Fold,2,Occurrence,85
+Random 4-Fold,3,Occurrence,86
+Random 4-Fold,4,Occurrence,85
+Random 4-Fold,0,Background,5000
+Spatial Block,1,Background,1528
+Spatial Block,1,Occurrence,86
+Spatial Block,2,Background,596
+Spatial Block,2,Occurrence,85
+Spatial Block,3,Background,2043
+Spatial Block,3,Occurrence,85
+Spatial Block,4,Background,833
+Spatial Block,4,Occurrence,85

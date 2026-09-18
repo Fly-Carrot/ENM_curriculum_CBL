@@ -1,0 +1,110 @@
+module,scenario,year,status,result_status,pixel_count,area_km2,model,Loss,Stable_Abs,Stable_Pres,Gain,PercLoss,PercGain,SpeciesRangeChange,CurrentRangeSize,FutureRangeSize.NoDisp,FutureRangeSize.FullDisp
+D4,course-declared +2 C and -10 percent precipitation,,Absent,reproduced_adapted,13861,3304381.17532041,,,,,,,,,,,
+D4,course-declared +2 C and -10 percent precipitation,,Stable,reproduced_adapted,7873,1996157.71776848,,,,,,,,,,,
+D4 sensitivity,selected bio8 +2 deg C,,Absent,teaching_simulation,9903,2391071.2316821,,,,,,,,,,,
+D4 sensitivity,selected bio8 +2 deg C,,Gain,teaching_simulation,3940,908788.077571342,,,,,,,,,,,
+D4 sensitivity,selected bio8 +2 deg C,,Stable,teaching_simulation,6439,1591863.92895321,,,,,,,,,,,
+D4 sensitivity,selected bio8 +2 deg C,,Loss,teaching_simulation,1434,404293.788815274,,,,,,,,,,,
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN1_DNN,437,62,19,485,95.8333333333333,106.359649122807,10.5263157894737,456,19,504
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN1_GBM,465,0,19,519,96.0743801652893,107.231404958678,11.1570247933884,484,19,538
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN1_GLM,407,29,21,546,95.0934579439252,127.570093457944,32.4766355140187,428,21,567
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN1_MARS,495,0,37,471,93.0451127819549,88.5338345864662,-4.51127819548871,532,37,508
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN1_RF,353,253,12,385,96.7123287671233,105.479452054795,8.76712328767124,365,12,397
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN1_XGBOOST,168,0,12,823,93.3333333333333,457.222222222222,363.888888888889,180,12,835
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN2_DNN,376,304,17,306,95.6743002544529,77.8625954198473,-17.8117048346056,393,17,323
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN2_GBM,406,0,15,582,96.437054631829,138.242280285036,41.8052256532067,421,15,597
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN2_GLM,392,108,14,489,96.551724137931,120.443349753695,23.8916256157635,406,14,503
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN2_MARS,523,13,16,451,97.0315398886827,83.6734693877551,-13.3580705009276,539,16,467
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN2_RF,356,282,8,357,97.8021978021978,98.0769230769231,0.274725274725284,364,8,365
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN2_XGBOOST,154,0,63,786,70.9677419354839,362.21198156682,291.244239631336,217,63,849
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN3_DNN,566,94,16,327,97.2508591065292,56.1855670103093,-41.0652920962199,582,16,343
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN3_GBM,164,0,83,756,66.3967611336032,306.072874493927,239.676113360324,247,83,839
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN3_GLM,386,38,24,555,94.1463414634146,135.365853658537,41.219512195122,410,24,579
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN3_MARS,331,3,54,615,85.974025974026,159.74025974026,73.7662337662338,385,54,669
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN3_RF,495,41,18,449,96.4912280701754,87.5243664717349,-8.96686159844055,513,18,467
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN3_XGBOOST,305,0,253,445,54.6594982078853,79.7491039426523,25.089605734767,558,253,698
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN4_DNN,207,556,12,228,94.5205479452055,104.109589041096,9.58904109589041,219,12,240
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN4_GBM,357,0,13,633,96.4864864864865,171.081081081081,74.5945945945946,370,13,646
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN4_GLM,931,62,0,10,100,1.07411385606874,-98.9258861439313,931,0,10
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN4_MARS,408,0,16,579,96.2264150943396,136.556603773585,40.3301886792453,424,16,595
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN4_RF,281,268,11,443,96.2328767123288,151.712328767123,55.4794520547945,292,11,454
+D14,period1 to independent period2,,model_range_summary,reproduced_adapted,,,Periparus.ater_allData_RUN4_XGBOOST,181,0,47,775,79.3859649122807,339.912280701754,260.526315789474,228,47,822
+dispersalENM,native | no_dispersal,2025,non_distribution,teaching_simulation,76641,47860128.8698688,,,,,,,,,,,
+dispersalENM,native | no_dispersal,2025,suitable_but_unreached,teaching_simulation,853,532674.285642902,,,,,,,,,,,
+dispersalENM,native | no_dispersal,2025,reachable_suitable,teaching_simulation,12980,8105641.5329945,,,,,,,,,,,
+dispersalENM,native | no_dispersal,2035,non_distribution,teaching_simulation,67532,42171816.9496549,,,,,,,,,,,
+dispersalENM,native | no_dispersal,2035,suitable_but_unreached,teaching_simulation,17017,10626633.4335139,,,,,,,,,,,
+dispersalENM,native | no_dispersal,2035,reachable_suitable,teaching_simulation,9435,5891889.66593246,,,,,,,,,,,
+dispersalENM,native | no_dispersal,2050,non_distribution,teaching_simulation,67247,41993842.5400313,,,,,,,,,,,
+dispersalENM,native | no_dispersal,2050,suitable_but_unreached,teaching_simulation,19572,12222158.403994,,,,,,,,,,,
+dispersalENM,native | no_dispersal,2050,reachable_suitable,teaching_simulation,7167,4475588.04830292,,,,,,,,,,,
+dispersalENM,native | poor_dispersal,2025,non_distribution,teaching_simulation,70418,43974042.0239481,,,,,,,,,,,
+dispersalENM,native | poor_dispersal,2025,reachable_suitable,teaching_simulation,13315,8314839.52325283,,,,,,,,,,,
+dispersalENM,native | poor_dispersal,2025,suitable_but_unreached,teaching_simulation,1417,884876.275212153,,,,,,,,,,,
+dispersalENM,native | poor_dispersal,2035,non_distribution,teaching_simulation,58707,36660854.9674518,,,,,,,,,,,
+dispersalENM,native | poor_dispersal,2035,suitable_but_unreached,teaching_simulation,7826,4887114.84107975,,,,,,,,,,,
+dispersalENM,native | poor_dispersal,2035,reachable_suitable,teaching_simulation,18617,11625788.0138537,,,,,,,,,,,
+dispersalENM,native | poor_dispersal,2050,non_distribution,teaching_simulation,58558,36567808.6971573,,,,,,,,,,,
+dispersalENM,native | poor_dispersal,2050,reachable_suitable,teaching_simulation,23411,14619504.9251968,,,,,,,,,,,
+dispersalENM,native | poor_dispersal,2050,suitable_but_unreached,teaching_simulation,3181,1986444.20003513,,,,,,,,,,,
+dispersalENM,native | good_dispersal,2025,non_distribution,teaching_simulation,70418,43974042.0239481,,,,,,,,,,,
+dispersalENM,native | good_dispersal,2025,reachable_suitable,teaching_simulation,13315,8314839.52325283,,,,,,,,,,,
+dispersalENM,native | good_dispersal,2025,suitable_but_unreached,teaching_simulation,1417,884876.275212153,,,,,,,,,,,
+dispersalENM,native | good_dispersal,2035,non_distribution,teaching_simulation,58707,36660854.9674518,,,,,,,,,,,
+dispersalENM,native | good_dispersal,2035,reachable_suitable,teaching_simulation,23585,14728162.9858087,,,,,,,,,,,
+dispersalENM,native | good_dispersal,2035,suitable_but_unreached,teaching_simulation,2858,1784739.86912933,,,,,,,,,,,
+dispersalENM,native | good_dispersal,2050,non_distribution,teaching_simulation,58558,36567808.6971573,,,,,,,,,,,
+dispersalENM,native | good_dispersal,2050,reachable_suitable,teaching_simulation,25713,16057038.5776607,,,,,,,,,,,
+dispersalENM,native | good_dispersal,2050,suitable_but_unreached,teaching_simulation,879,548910.5475734,,,,,,,,,,,
+dispersalENM,native | unlimited_dispersal,2035,non_distribution,teaching_simulation,67532,42171816.9496549,,,,,,,,,,,
+dispersalENM,native | unlimited_dispersal,2035,reachable_suitable,teaching_simulation,26454,16519772.0426805,,,,,,,,,,,
+dispersalENM,native | unlimited_dispersal,2050,non_distribution,teaching_simulation,67247,41993842.5400313,,,,,,,,,,,
+dispersalENM,native | unlimited_dispersal,2050,reachable_suitable,teaching_simulation,26739,16697746.4523036,,,,,,,,,,,
+dispersalENM,native | wind_impact,2025,non_distribution,teaching_simulation,70418,43974042.0239481,,,,,,,,,,,
+dispersalENM,native | wind_impact,2025,reachable_suitable,teaching_simulation,13315,8314839.52325283,,,,,,,,,,,
+dispersalENM,native | wind_impact,2025,suitable_but_unreached,teaching_simulation,1417,884876.275212153,,,,,,,,,,,
+dispersalENM,native | wind_impact,2035,non_distribution,teaching_simulation,58707,36660854.9674518,,,,,,,,,,,
+dispersalENM,native | wind_impact,2035,suitable_but_unreached,teaching_simulation,9491,5926860.0762443,,,,,,,,,,,
+dispersalENM,native | wind_impact,2035,reachable_suitable,teaching_simulation,16952,10586042.7786876,,,,,,,,,,,
+dispersalENM,native | wind_impact,2050,non_distribution,teaching_simulation,58558,36567808.6971573,,,,,,,,,,,
+dispersalENM,native | wind_impact,2050,reachable_suitable,teaching_simulation,17865,11156185.361094,,,,,,,,,,,
+dispersalENM,native | wind_impact,2050,suitable_but_unreached,teaching_simulation,8727,5449763.76413276,,,,,,,,,,,
+dispersalENM,invasive | no_dispersal,2025,non_distribution,teaching_simulation,86691,54136068.5776468,,,,,,,,,,,
+dispersalENM,invasive | no_dispersal,2025,reachable_suitable,teaching_simulation,3783,2362376.11088741,,,,,,,,,,,
+dispersalENM,invasive | no_dispersal,2035,non_distribution,teaching_simulation,67532,42171816.9496549,,,,,,,,,,,
+dispersalENM,invasive | no_dispersal,2035,suitable_but_unreached,teaching_simulation,24905,15552465.5145891,,,,,,,,,,,
+dispersalENM,invasive | no_dispersal,2035,reachable_suitable,teaching_simulation,1547,966057.58486464,,,,,,,,,,,
+dispersalENM,invasive | no_dispersal,2050,non_distribution,teaching_simulation,67247,41993842.5400313,,,,,,,,,,,
+dispersalENM,invasive | no_dispersal,2050,suitable_but_unreached,teaching_simulation,26282,16412362.925294,,,,,,,,,,,
+dispersalENM,invasive | no_dispersal,2050,reachable_suitable,teaching_simulation,457,285383.527009151,,,,,,,,,,,
+dispersalENM,invasive | poor_dispersal,2025,non_distribution,teaching_simulation,70418,43974042.0239481,,,,,,,,,,,
+dispersalENM,invasive | poor_dispersal,2025,reachable_suitable,teaching_simulation,3773,2356131.3947603,,,,,,,,,,,
+dispersalENM,invasive | poor_dispersal,2025,suitable_but_unreached,teaching_simulation,10959,6843584.40370469,,,,,,,,,,,
+dispersalENM,invasive | poor_dispersal,2035,non_distribution,teaching_simulation,58707,36660854.9674518,,,,,,,,,,,
+dispersalENM,invasive | poor_dispersal,2035,suitable_but_unreached,teaching_simulation,22838,14261682.6911126,,,,,,,,,,,
+dispersalENM,invasive | poor_dispersal,2035,reachable_suitable,teaching_simulation,3605,2251220.16382478,,,,,,,,,,,
+dispersalENM,invasive | poor_dispersal,2050,non_distribution,teaching_simulation,58558,36567808.6971573,,,,,,,,,,,
+dispersalENM,invasive | poor_dispersal,2050,suitable_but_unreached,teaching_simulation,20607,12868486.5231513,,,,,,,,,,,
+dispersalENM,invasive | poor_dispersal,2050,reachable_suitable,teaching_simulation,5985,3737462.602078,,,,,,,,,,,
+dispersalENM,invasive | good_dispersal,2025,non_distribution,teaching_simulation,70418,43974042.0239481,,,,,,,,,,,
+dispersalENM,invasive | good_dispersal,2025,reachable_suitable,teaching_simulation,6340,3959150.02459056,,,,,,,,,,,
+dispersalENM,invasive | good_dispersal,2025,suitable_but_unreached,teaching_simulation,8392,5240565.77387443,,,,,,,,,,,
+dispersalENM,invasive | good_dispersal,2035,non_distribution,teaching_simulation,58707,36660854.9674518,,,,,,,,,,,
+dispersalENM,invasive | good_dispersal,2035,suitable_but_unreached,teaching_simulation,18339,11452184.9055197,,,,,,,,,,,
+dispersalENM,invasive | good_dispersal,2035,reachable_suitable,teaching_simulation,8104,5060717.94941353,,,,,,,,,,,
+dispersalENM,invasive | good_dispersal,2050,non_distribution,teaching_simulation,58558,36567808.6971573,,,,,,,,,,,
+dispersalENM,invasive | good_dispersal,2050,reachable_suitable,teaching_simulation,12767,7972629.07948696,,,,,,,,,,,
+dispersalENM,invasive | good_dispersal,2050,suitable_but_unreached,teaching_simulation,13825,8633320.04573603,,,,,,,,,,,
+dispersalENM,invasive | unlimited_dispersal,2035,non_distribution,teaching_simulation,67532,42171816.9496549,,,,,,,,,,,
+dispersalENM,invasive | unlimited_dispersal,2035,reachable_suitable,teaching_simulation,26454,16519772.0426805,,,,,,,,,,,
+dispersalENM,invasive | unlimited_dispersal,2050,non_distribution,teaching_simulation,67247,41993842.5400313,,,,,,,,,,,
+dispersalENM,invasive | unlimited_dispersal,2050,reachable_suitable,teaching_simulation,26739,16697746.4523036,,,,,,,,,,,
+dispersalENM,invasive | wind_impact,2025,non_distribution,teaching_simulation,70418,43974042.0239481,,,,,,,,,,,
+dispersalENM,invasive | wind_impact,2025,reachable_suitable,teaching_simulation,3773,2356131.3947603,,,,,,,,,,,
+dispersalENM,invasive | wind_impact,2025,suitable_but_unreached,teaching_simulation,10959,6843584.40370469,,,,,,,,,,,
+dispersalENM,invasive | wind_impact,2035,non_distribution,teaching_simulation,58707,36660854.9674518,,,,,,,,,,,
+dispersalENM,invasive | wind_impact,2035,suitable_but_unreached,teaching_simulation,22174,13847033.5402716,,,,,,,,,,,
+dispersalENM,invasive | wind_impact,2035,reachable_suitable,teaching_simulation,4269,2665869.31466517,,,,,,,,,,,
+dispersalENM,invasive | wind_impact,2050,non_distribution,teaching_simulation,58558,36567808.6971573,,,,,,,,,,,
+dispersalENM,invasive | wind_impact,2050,suitable_but_unreached,teaching_simulation,21353,13334342.3462347,,,,,,,,,,,
+dispersalENM,invasive | wind_impact,2050,reachable_suitable,teaching_simulation,5239,3271606.77899527,,,,,,,,,,,

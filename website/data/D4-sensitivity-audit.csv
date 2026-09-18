@@ -1,0 +1,8 @@
+check,value
+selected_variables,bio15;bio18;bio19;bio2;bio3;bio8
+changed_variable,bio8
+source_unit,0.1 deg C
+increment_source_units,20
+increment_degrees_C,2
+current_future_identical,FALSE
+threshold,0.25

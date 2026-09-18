@@ -1,0 +1,9 @@
+module,stage,n,meaning,removed_from_previous
+D1,raw_records,7239,Published occurrence table,
+D1,valid_environment_cell,6323,Coordinates intersect the climate raster,916
+D1,one_record_per_raster_cell,341,Spatially thinned modeling records,5982
+D15,clean_coordinates,4538,GBIF rows with coordinates,
+D15,inside_expert_range,2195,Strict point-in-polygon inclusion,2343
+D15,inside_10km_buffer,2516,Range plus 10 km inclusion,2022
+D15,complete_environment_values,2510,Rows passed to ENMeval before cell thinning,6
+D15,one_record_per_raster_cell,122,Records retained internally by ENMeval,2388

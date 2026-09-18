@@ -1,0 +1,76 @@
+module,scope,algorithm,feature_class,regularization_multiplier,ncoef,selected
+D5,random 5-fold tuning,maxnet,LQ,0.5,12,TRUE
+D5,random 5-fold tuning,maxnet,LQ,1,12,FALSE
+D5,random 5-fold tuning,maxnet,LQ,1.5,11,FALSE
+D5,random 5-fold tuning,maxnet,LQ,2,8,FALSE
+D5,random 5-fold tuning,maxnet,LQ,2.5,8,FALSE
+D5,random 5-fold tuning,maxnet,LQ,3,8,FALSE
+D5,random 5-fold tuning,maxnet,L,0.5,6,FALSE
+D5,random 5-fold tuning,maxnet,L,1,6,FALSE
+D5,random 5-fold tuning,maxnet,L,1.5,6,FALSE
+D5,random 5-fold tuning,maxnet,L,2,6,FALSE
+D5,random 5-fold tuning,maxnet,L,2.5,6,FALSE
+D5,random 5-fold tuning,maxnet,L,3,6,FALSE
+D6,A: Random-kFold + Global BG,maxnet,L,0.5,6,FALSE
+D6,A: Random-kFold + Global BG,maxnet,LQ,0.5,12,TRUE
+D6,A: Random-kFold + Global BG,maxnet,L,1,6,FALSE
+D6,A: Random-kFold + Global BG,maxnet,LQ,1,12,FALSE
+D6,A: Random-kFold + Global BG,maxnet,L,2,6,FALSE
+D6,A: Random-kFold + Global BG,maxnet,LQ,2,8,FALSE
+D6,A: Random-kFold + Global BG,maxnet,L,3,6,FALSE
+D6,A: Random-kFold + Global BG,maxnet,LQ,3,8,FALSE
+D6,B: Block + Global BG,maxnet,L,0.5,6,FALSE
+D6,B: Block + Global BG,maxnet,LQ,0.5,12,TRUE
+D6,B: Block + Global BG,maxnet,L,1,6,FALSE
+D6,B: Block + Global BG,maxnet,LQ,1,12,FALSE
+D6,B: Block + Global BG,maxnet,L,2,6,FALSE
+D6,B: Block + Global BG,maxnet,LQ,2,8,FALSE
+D6,B: Block + Global BG,maxnet,L,3,6,FALSE
+D6,B: Block + Global BG,maxnet,LQ,3,8,FALSE
+D6,C: Block + Buffered BG,maxnet,L,0.5,6,FALSE
+D6,C: Block + Buffered BG,maxnet,LQ,0.5,10,TRUE
+D6,C: Block + Buffered BG,maxnet,L,1,6,FALSE
+D6,C: Block + Buffered BG,maxnet,LQ,1,10,FALSE
+D6,C: Block + Buffered BG,maxnet,L,2,6,FALSE
+D6,C: Block + Buffered BG,maxnet,LQ,2,9,FALSE
+D6,C: Block + Buffered BG,maxnet,L,3,5,FALSE
+D6,C: Block + Buffered BG,maxnet,LQ,3,8,FALSE
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L,0.1,17,FALSE
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q,0.1,15,FALSE
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P,0.1,56,FALSE
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ,0.1,26,TRUE
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP,0.1,62,FALSE
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L,1,13,FALSE
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q,1,12,FALSE
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P,1,23,FALSE
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ,1,18,FALSE
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP,1,21,FALSE
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L,10,7,FALSE
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q,10,6,FALSE
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P,10,9,FALSE
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ,10,9,FALSE
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP,10,9,FALSE
+D14,RUN1,DNN,,,,TRUE
+D14,RUN1,GBM,,,,TRUE
+D14,RUN1,GLM,,,,TRUE
+D14,RUN1,MARS,,,,TRUE
+D14,RUN1,RF,,,,TRUE
+D14,RUN1,XGBOOST,,,,TRUE
+D14,RUN2,DNN,,,,TRUE
+D14,RUN2,GBM,,,,TRUE
+D14,RUN2,GLM,,,,TRUE
+D14,RUN2,MARS,,,,TRUE
+D14,RUN2,RF,,,,TRUE
+D14,RUN2,XGBOOST,,,,TRUE
+D14,RUN3,DNN,,,,TRUE
+D14,RUN3,GBM,,,,TRUE
+D14,RUN3,GLM,,,,TRUE
+D14,RUN3,MARS,,,,TRUE
+D14,RUN3,RF,,,,TRUE
+D14,RUN3,XGBOOST,,,,TRUE
+D14,RUN4,DNN,,,,TRUE
+D14,RUN4,GBM,,,,TRUE
+D14,RUN4,GLM,,,,TRUE
+D14,RUN4,MARS,,,,TRUE
+D14,RUN4,RF,,,,TRUE
+D14,RUN4,XGBOOST,,,,TRUE

@@ -1,0 +1,16 @@
+import{readFileSync,existsSync,writeFileSync}from'node:fs';
+import{resolve}from'node:path';
+import{chapters}from'./chapters.mjs';
+const html=readFileSync('dist/index.html','utf8');
+const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(x=>x[1]);
+const duplicateIds=ids.filter((v,i)=>ids.indexOf(v)!==i);
+const brokenAnchors=[...html.matchAll(/href="#([^"]+)"/g)].map(x=>x[1]).filter(x=>!ids.includes(x));
+const localRefs=[...html.matchAll(/(?:src|href)="([^"#]+)"/g)].map(x=>x[1]).filter(x=>!/^https?:|^data:/.test(x));
+const missingAssets=[...new Set(localRefs)].filter(x=>!existsSync(resolve('dist',x)));
+const report={chapters:chapters.length,chapterChineseCharacters:chapters.map(c=>({chapter:c.short,characters:(c.body.replace(/<[^>]*>/g,'').match(/[\u4e00-\u9fff]/g)||[]).length})),chineseCharacters:(html.replace(/<[^>]*>/g,'').match(/[\u4e00-\u9fff]/g)||[]).length,images:[...html.matchAll(/<img[^>]+src=/g)].length,analysisFigures:[...html.matchAll(/class="analysis-figure"/g)].length,duplicateIds,brokenAnchors,missingAssets,rawLatex:/\\(?:frac|psi|begin|mathrm|text)\b|\$\$/.test(html),projectPathLeak:/\/Users\/|RUN-2026|KOS_DECISION|CAPABILITY_OK/.test(html)};
+report.numericChecks={maxentWeightRatio:Math.abs((.8/10)/(.2/90)-36)<1e-10,detectionThreeVisits:Math.abs(.6*(1-(1-.5)**3)-.525)<1e-10,futureAreaTotal:Math.abs(45.15+17.16+30.06+7.63-100)<1e-10,d5Scope:readFileSync('dist/assets/model-metrics.csv','utf8').includes('D5,random 5-fold tuning,'),d15Scope:readFileSync('dist/assets/model-metrics.csv','utf8').includes('D15,expert-filtered presences; global background; random 5-fold,')};
+report.publicationChecks={independentSite:html.includes('独立中文学习讲解网站')&&html.includes('不是课程官方页面'),courseMit:html.includes('Copyright © 2026 Qiao, Huijie')&&html.includes('MIT License'),dataCcBy:html.includes('Qiao, Huijie (2026)')&&html.includes('CC BY 4.0'),contentLayers:html.includes('课程结果：')&&html.includes('本站解释：')&&html.includes('AI 场景图只帮助理解情境'),thirdPartyNotice:existsSync(resolve('dist','THIRD_PARTY_NOTICES.txt')),restrictedRangeMapExcluded:!existsSync(resolve('dist','assets/fig-14-expert-range-and-maxent.png'))&&!html.includes('fig-14-expert-range-and-maxent.png')};
+report.pass=chapters.length===12&&!duplicateIds.length&&!brokenAnchors.length&&!missingAssets.length&&!report.rawLatex&&!report.projectPathLeak&&Object.values(report.numericChecks).every(Boolean)&&Object.values(report.publicationChecks).every(Boolean);
+console.log(JSON.stringify(report,null,2));
+if(process.argv[2])writeFileSync(process.argv[2],JSON.stringify(report,null,2)+'\n');
+if(!report.pass)process.exitCode=1;

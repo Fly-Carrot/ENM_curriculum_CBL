@@ -1,0 +1,50 @@
+一只鸟，一张地图：第三方材料与许可说明
+
+1. 课程代码
+
+来源：https://github.com/qiaohj/ENM_curriculum
+固定版本：4936e2e940968766340ed2788f983ae210930258
+
+MIT License
+
+Copyright (c) 2026 Qiao, Huijie
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+2. 课程配套数据
+
+Huijie Qiao (2026). SDM curriculum. figshare. Dataset. Version 2.
+https://doi.org/10.6084/m9.figshare.33453802.v2
+License: CC BY 4.0
+https://creativecommons.org/licenses/by/4.0/
+
+本站进行了运行适配、指标汇总、图形重绘、中文解释和标签整理。
+下载表是课程运行结果的汇总副本，不包含原始气候栅格或专家范围图层。
+
+3. 另有权利的材料
+
+论文版权归各自作者或出版者所有，本站只作转述并提供原文链接。
+课程包中的第三方地理资料仍适用各自来源的许可。本站不提供 IUCN
+专家范围图层或 WorldClim 原始气候栅格，也不将这些材料声明为 MIT
+或 CC BY 4.0。
+
+4. 本站内容
+
+本站中文讲解与页面设计 Copyright (c) 2026 David Chen。
+AI 场景图用于帮助理解情境，不是野外照片或分析证据。

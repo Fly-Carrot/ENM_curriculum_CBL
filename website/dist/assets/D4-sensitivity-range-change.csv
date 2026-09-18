@@ -1,0 +1,5 @@
+scenario,status,pixel_count,area_km2,area_percentage,threshold,result_status
+Selected bio8 +2 deg C,Absent,9903,2391071.2316821,45.1484808202488,0.25,teaching_simulation
+Selected bio8 +2 deg C,Gain,3940,908788.077571342,17.1598405544095,0.25,teaching_simulation
+Selected bio8 +2 deg C,Stable,6439,1591863.92895321,30.0577570055198,0.25,teaching_simulation
+Selected bio8 +2 deg C,Loss,1434,404293.788815274,7.63392161982187,0.25,teaching_simulation

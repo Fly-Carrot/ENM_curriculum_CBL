@@ -1,0 +1,910 @@
+module,scope,algorithm,setting,metric,value,result_status
+D3,random 70/30 holdout,maxnet,threshold=0.25,AUC,0.853,reproduced_adapted
+D3,random 70/30 holdout,maxnet,threshold=0.25,TSS,0.559233139553353,reproduced_adapted
+D3,random 70/30 holdout,maxnet,threshold=0.25,sensitivity,0.923809523809524,reproduced_adapted
+D3,random 70/30 holdout,maxnet,threshold=0.25,specificity,0.635423615743829,reproduced_adapted
+D3,random 70/30 holdout,maxnet,threshold=0.25,threshold,0.25,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 0.5,auc.train,0.784225219941349,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 1,auc.train,0.781976686217009,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 1.5,auc.train,0.775561876832845,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 2,auc.train,0.766726686217009,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 2.5,auc.train,0.756928299120235,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 3,auc.train,0.74854706744868,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 0.5,auc.train,0.720220381231672,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 1,auc.train,0.720324633431085,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 1.5,auc.train,0.720258944281525,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 2,auc.train,0.720144574780059,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 2.5,auc.train,0.71996788856305,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 3,auc.train,0.719726686217009,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 0.5,auc.val.avg,0.778839927536232,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 1,auc.val.avg,0.775877248508099,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 1.5,auc.val.avg,0.769944239130435,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 2,auc.val.avg,0.762694179454391,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 2.5,auc.val.avg,0.753777320971867,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 3,auc.val.avg,0.745172527706735,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 0.5,auc.val.avg,0.715957636402387,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 1,auc.val.avg,0.715954620630861,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 1.5,auc.val.avg,0.715938303495311,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 2,auc.val.avg,0.715826457800512,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 2.5,auc.val.avg,0.715748410059676,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 3,auc.val.avg,0.715598124467178,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 0.5,auc.diff.avg,0.0284174823700383,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 1,auc.diff.avg,0.0295838264218731,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 1.5,auc.diff.avg,0.0303040968962836,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 2,auc.diff.avg,0.0308907704486477,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 2.5,auc.diff.avg,0.032310092570473,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 3,auc.diff.avg,0.033263453762776,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 0.5,auc.diff.avg,0.0343154329792118,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 1,auc.diff.avg,0.0344392152881219,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 1.5,auc.diff.avg,0.03453102086905,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 2,auc.diff.avg,0.0345665993261853,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 2.5,auc.diff.avg,0.0346714664486196,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 3,auc.diff.avg,0.0347601228125029,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 0.5,cbi.val.avg,0.8466,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 1,cbi.val.avg,0.8576,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 1.5,cbi.val.avg,0.8652,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 2,cbi.val.avg,0.851,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 2.5,cbi.val.avg,0.8802,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 3,cbi.val.avg,0.889,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 0.5,cbi.val.avg,0.8244,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 1,cbi.val.avg,0.8232,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 1.5,cbi.val.avg,0.8184,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 2,cbi.val.avg,0.8132,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 2.5,cbi.val.avg,0.8068,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 3,cbi.val.avg,0.7998,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 0.5,or.10p.avg,0.10843989769821,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 1,or.10p.avg,0.114194373401535,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 1.5,or.10p.avg,0.102514919011083,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 2,or.10p.avg,0.0967178175618073,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 2.5,or.10p.avg,0.102429667519182,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 3,or.10p.avg,0.102429667519182,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 0.5,or.10p.avg,0.099616368286445,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 1,or.10p.avg,0.099616368286445,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 1.5,or.10p.avg,0.099616368286445,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 2,or.10p.avg,0.099616368286445,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 2.5,or.10p.avg,0.0966751918158568,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 3,or.10p.avg,0.0966325660699062,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 0.5,AICc,6450.12718352004,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 1,AICc,6474.25985139237,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 1.5,AICc,6503.66563915578,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 2,AICc,6523.07798554504,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 2.5,AICc,6544.36331202464,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 3,AICc,6564.72537897367,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 0.5,AICc,6624.39870046,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 1,AICc,6624.62889099598,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 1.5,AICc,6624.93829083271,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 2,AICc,6625.34868785628,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 2.5,AICc,6625.84680051249,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 3,AICc,6626.43040417346,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 0.5,delta.AICc,0,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 1,delta.AICc,24.1326678723271,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 1.5,delta.AICc,53.5384556357385,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 2,delta.AICc,72.9508020249969,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 2.5,delta.AICc,94.2361285045945,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 3,delta.AICc,114.598195453629,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 0.5,delta.AICc,174.271516939954,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 1,delta.AICc,174.501707475943,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 1.5,delta.AICc,174.811107312665,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 2,delta.AICc,175.221504336236,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 2.5,delta.AICc,175.719616992447,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 3,delta.AICc,176.303220653421,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 0.5,ncoef,12,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 1,ncoef,12,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 1.5,ncoef,11,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 2,ncoef,8,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 2.5,ncoef,8,reproduced_adapted
+D5,random 5-fold tuning,maxnet,LQ | 3,ncoef,8,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 0.5,ncoef,6,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 1,ncoef,6,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 1.5,ncoef,6,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 2,ncoef,6,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 2.5,ncoef,6,reproduced_adapted
+D5,random 5-fold tuning,maxnet,L | 3,ncoef,6,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 0.5,auc.train,0.721716862170088,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 0.5,auc.train,0.785069794721408,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 1,auc.train,0.721745014662757,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 1,auc.train,0.783180938416422,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 2,auc.train,0.72179706744868,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 2,auc.train,0.769295747800587,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 3,auc.train,0.721572727272727,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 3,auc.train,0.751063929618768,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 0.5,auc.train,0.721716862170088,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 0.5,auc.train,0.785069794721408,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 1,auc.train,0.721745014662757,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 1,auc.train,0.783180938416422,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 2,auc.train,0.72179706744868,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 2,auc.train,0.769295747800587,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 3,auc.train,0.721572727272727,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 3,auc.train,0.751063929618768,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 0.5,auc.train,0.72309780058651,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 0.5,auc.train,0.772696920821114,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 1,auc.train,0.723157331378299,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 1,auc.train,0.769132551319648,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 2,auc.train,0.72296715542522,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 2,auc.train,0.754703519061584,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 3,auc.train,0.722830791788856,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 3,auc.train,0.736850146627566,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 0.5,auc.val.avg,0.71757279198636,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 0.5,auc.val.avg,0.773932382779199,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 1,auc.val.avg,0.717731670929241,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 1,auc.val.avg,0.770960238704177,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 2,auc.val.avg,0.717744339300938,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 2,auc.val.avg,0.763137395566922,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 3,auc.val.avg,0.717595319693095,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 3,auc.val.avg,0.748108721227622,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 0.5,auc.val.avg,0.674767118440319,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 0.5,auc.val.avg,0.763937514447057,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 1,auc.val.avg,0.676313534443035,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 1,auc.val.avg,0.758735096923274,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 2,auc.val.avg,0.678643850832057,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 2,auc.val.avg,0.74128348611758,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 3,auc.val.avg,0.680844346415421,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 3,auc.val.avg,0.719210075187382,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 0.5,auc.val.avg,0.665058780526445,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 0.5,auc.val.avg,0.752677815839766,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 1,auc.val.avg,0.667408763251339,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 1,auc.val.avg,0.747413173251218,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 2,auc.val.avg,0.67195556153041,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 2,auc.val.avg,0.72744180353667,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 3,auc.val.avg,0.676694730209395,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 3,auc.val.avg,0.711215420957984,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 0.5,auc.diff.avg,0.0292665310313089,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 0.5,auc.diff.avg,0.0362718799066449,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 1,auc.diff.avg,0.0295996426346458,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 1,auc.diff.avg,0.0361032896302334,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 2,auc.diff.avg,0.0302499470866942,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 2,auc.diff.avg,0.0347289750967277,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 3,auc.diff.avg,0.0309355952498056,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 3,auc.diff.avg,0.0337742812233589,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 0.5,auc.diff.avg,0.186668359273449,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 0.5,auc.diff.avg,0.11709772577185,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 1,auc.diff.avg,0.185495253341658,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 1,auc.diff.avg,0.114759641331402,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 2,auc.diff.avg,0.184449864269717,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 2,auc.diff.avg,0.124236622932796,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 3,auc.diff.avg,0.184818092328051,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 3,auc.diff.avg,0.147518696607063,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 0.5,auc.diff.avg,0.17549546602008,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 0.5,auc.diff.avg,0.156884324214938,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 1,auc.diff.avg,0.173257076935353,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 1,auc.diff.avg,0.155032181096147,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 2,auc.diff.avg,0.168839539228328,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 2,auc.diff.avg,0.148166039764404,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 3,auc.diff.avg,0.163903513760638,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 3,auc.diff.avg,0.151176631541286,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 0.5,cbi.val.avg,0.8804,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 0.5,cbi.val.avg,0.8684,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 1,cbi.val.avg,0.8774,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 1,cbi.val.avg,0.8832,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 2,cbi.val.avg,0.8696,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 2,cbi.val.avg,0.9018,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 3,cbi.val.avg,0.8556,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 3,cbi.val.avg,0.9148,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 0.5,cbi.val.avg,0.41725,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 0.5,cbi.val.avg,0.745,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 1,cbi.val.avg,0.428,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 1,cbi.val.avg,0.756,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 2,cbi.val.avg,0.439,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 2,cbi.val.avg,0.719,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 3,cbi.val.avg,0.435,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 3,cbi.val.avg,0.62275,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 0.5,cbi.val.avg,0.3475,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 0.5,cbi.val.avg,0.57525,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 1,cbi.val.avg,0.312,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 1,cbi.val.avg,0.57975,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 2,cbi.val.avg,0.26925,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 2,cbi.val.avg,0.64375,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 3,cbi.val.avg,0.26575,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 3,cbi.val.avg,0.59275,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 0.5,or.10p.avg,0.102600170502984,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 0.5,or.10p.avg,0.111594202898551,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 1,or.10p.avg,0.105541346973572,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 1,or.10p.avg,0.120375106564365,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 2,or.10p.avg,0.10848252344416,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 2,or.10p.avg,0.105669224211424,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 3,or.10p.avg,0.10848252344416,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 3,or.10p.avg,0.096845694799659,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 0.5,or.10p.avg,0.270417236662107,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 0.5,or.10p.avg,0.0675444596443229,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 1,or.10p.avg,0.267476060191519,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 1,or.10p.avg,0.138098495212038,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 2,or.10p.avg,0.261627906976744,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 2,or.10p.avg,0.173358413132695,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 3,or.10p.avg,0.244049247606019,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 3,or.10p.avg,0.18796169630643,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 0.5,or.10p.avg,0.220177838577291,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 0.5,or.10p.avg,0.143980848153215,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 1,or.10p.avg,0.211354309165527,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 1,or.10p.avg,0.155848153214774,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 2,or.10p.avg,0.208413132694938,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 2,or.10p.avg,0.19093707250342,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 3,or.10p.avg,0.208413132694938,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 3,or.10p.avg,0.223221614227086,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 0.5,AICc,6624.24217467419,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 0.5,AICc,6449.95084034203,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 1,AICc,6624.27873009272,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 1,AICc,6473.76520572104,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 2,AICc,6624.61457102459,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 2,AICc,6521.11635168422,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 3,AICc,6625.30327520058,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 3,AICc,6563.55069815306,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 0.5,AICc,6624.24217467419,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 0.5,AICc,6449.95084034203,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 1,AICc,6624.27873009272,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 1,AICc,6473.76520572104,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 2,AICc,6624.61457102459,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 2,AICc,6521.11635168422,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 3,AICc,6625.30327520058,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 3,AICc,6563.55069815306,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 0.5,AICc,6637.02385926651,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 0.5,AICc,6469.86592647461,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 1,AICc,6636.71062399569,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 1,AICc,6502.1475406716,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 2,AICc,6636.73494484234,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 2,AICc,6547.83897786248,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 3,AICc,6634.81285209603,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 3,AICc,6597.32343538808,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 0.5,delta.AICc,174.291334332158,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 0.5,delta.AICc,0,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 1,delta.AICc,174.327889750693,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 1,delta.AICc,23.8143653790075,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 2,delta.AICc,174.663730682562,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 2,delta.AICc,71.1655113421903,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 3,delta.AICc,175.352434858547,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 3,delta.AICc,113.599857811031,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 0.5,delta.AICc,174.291334332158,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 0.5,delta.AICc,0,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 1,delta.AICc,174.327889750693,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 1,delta.AICc,23.8143653790075,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 2,delta.AICc,174.663730682562,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 2,delta.AICc,71.1655113421903,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 3,delta.AICc,175.352434858547,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 3,delta.AICc,113.599857811031,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 0.5,delta.AICc,167.157932791895,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 0.5,delta.AICc,0,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 1,delta.AICc,166.844697521077,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 1,delta.AICc,32.2816141969888,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 2,delta.AICc,166.869018367727,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 2,delta.AICc,77.9730513878685,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 3,delta.AICc,164.946925621412,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 3,delta.AICc,127.457508913462,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 0.5,ncoef,6,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 0.5,ncoef,12,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 1,ncoef,6,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 1,ncoef,12,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 2,ncoef,6,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 2,ncoef,8,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | L | 3,ncoef,6,reproduced_adapted
+D6,partition and background sensitivity,maxnet,A: Random-kFold + Global BG | LQ | 3,ncoef,8,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 0.5,ncoef,6,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 0.5,ncoef,12,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 1,ncoef,6,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 1,ncoef,12,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 2,ncoef,6,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 2,ncoef,8,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | L | 3,ncoef,6,reproduced_adapted
+D6,partition and background sensitivity,maxnet,B: Block + Global BG | LQ | 3,ncoef,8,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 0.5,ncoef,6,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 0.5,ncoef,10,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 1,ncoef,6,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 1,ncoef,10,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 2,ncoef,6,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 2,ncoef,9,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | L | 3,ncoef,5,reproduced_adapted
+D6,partition and background sensitivity,maxnet,C: Block + Buffered BG | LQ | 3,ncoef,8,reproduced_adapted
+D14,calibration | RUN1,DNN,Periparus.ater_allData_RUN1_DNN,Rsquared,0.586,reproduced_adapted
+D14,calibration | RUN1,DNN,Periparus.ater_allData_RUN1_DNN,Rsquared_aj,0.583,reproduced_adapted
+D14,calibration | RUN1,DNN,Periparus.ater_allData_RUN1_DNN,RMSE,1.512,reproduced_adapted
+D14,calibration | RUN1,GBM,Periparus.ater_allData_RUN1_GBM,Rsquared,0.772,reproduced_adapted
+D14,calibration | RUN1,GBM,Periparus.ater_allData_RUN1_GBM,Rsquared_aj,0.77,reproduced_adapted
+D14,calibration | RUN1,GBM,Periparus.ater_allData_RUN1_GBM,RMSE,1.237,reproduced_adapted
+D14,calibration | RUN1,GLM,Periparus.ater_allData_RUN1_GLM,Rsquared,0.553,reproduced_adapted
+D14,calibration | RUN1,GLM,Periparus.ater_allData_RUN1_GLM,Rsquared_aj,0.55,reproduced_adapted
+D14,calibration | RUN1,GLM,Periparus.ater_allData_RUN1_GLM,RMSE,1.594,reproduced_adapted
+D14,calibration | RUN1,MARS,Periparus.ater_allData_RUN1_MARS,Rsquared,0.59,reproduced_adapted
+D14,calibration | RUN1,MARS,Periparus.ater_allData_RUN1_MARS,Rsquared_aj,0.587,reproduced_adapted
+D14,calibration | RUN1,MARS,Periparus.ater_allData_RUN1_MARS,RMSE,1.529,reproduced_adapted
+D14,calibration | RUN1,RF,Periparus.ater_allData_RUN1_RF,Rsquared,0.908,reproduced_adapted
+D14,calibration | RUN1,RF,Periparus.ater_allData_RUN1_RF,Rsquared_aj,0.907,reproduced_adapted
+D14,calibration | RUN1,RF,Periparus.ater_allData_RUN1_RF,RMSE,0.784,reproduced_adapted
+D14,calibration | RUN1,XGBOOST,Periparus.ater_allData_RUN1_XGBOOST,Rsquared,0.624,reproduced_adapted
+D14,calibration | RUN1,XGBOOST,Periparus.ater_allData_RUN1_XGBOOST,Rsquared_aj,0.621,reproduced_adapted
+D14,calibration | RUN1,XGBOOST,Periparus.ater_allData_RUN1_XGBOOST,RMSE,1.5,reproduced_adapted
+D14,calibration | RUN2,DNN,Periparus.ater_allData_RUN2_DNN,Rsquared,0.593,reproduced_adapted
+D14,calibration | RUN2,DNN,Periparus.ater_allData_RUN2_DNN,Rsquared_aj,0.59,reproduced_adapted
+D14,calibration | RUN2,DNN,Periparus.ater_allData_RUN2_DNN,RMSE,1.832,reproduced_adapted
+D14,calibration | RUN2,GBM,Periparus.ater_allData_RUN2_GBM,Rsquared,0.788,reproduced_adapted
+D14,calibration | RUN2,GBM,Periparus.ater_allData_RUN2_GBM,Rsquared_aj,0.787,reproduced_adapted
+D14,calibration | RUN2,GBM,Periparus.ater_allData_RUN2_GBM,RMSE,1.487,reproduced_adapted
+D14,calibration | RUN2,GLM,Periparus.ater_allData_RUN2_GLM,Rsquared,0.603,reproduced_adapted
+D14,calibration | RUN2,GLM,Periparus.ater_allData_RUN2_GLM,Rsquared_aj,0.6,reproduced_adapted
+D14,calibration | RUN2,GLM,Periparus.ater_allData_RUN2_GLM,RMSE,1.825,reproduced_adapted
+D14,calibration | RUN2,MARS,Periparus.ater_allData_RUN2_MARS,Rsquared,0.68,reproduced_adapted
+D14,calibration | RUN2,MARS,Periparus.ater_allData_RUN2_MARS,Rsquared_aj,0.678,reproduced_adapted
+D14,calibration | RUN2,MARS,Periparus.ater_allData_RUN2_MARS,RMSE,1.647,reproduced_adapted
+D14,calibration | RUN2,RF,Periparus.ater_allData_RUN2_RF,Rsquared,0.912,reproduced_adapted
+D14,calibration | RUN2,RF,Periparus.ater_allData_RUN2_RF,Rsquared_aj,0.911,reproduced_adapted
+D14,calibration | RUN2,RF,Periparus.ater_allData_RUN2_RF,RMSE,0.96,reproduced_adapted
+D14,calibration | RUN2,XGBOOST,Periparus.ater_allData_RUN2_XGBOOST,Rsquared,0.615,reproduced_adapted
+D14,calibration | RUN2,XGBOOST,Periparus.ater_allData_RUN2_XGBOOST,Rsquared_aj,0.613,reproduced_adapted
+D14,calibration | RUN2,XGBOOST,Periparus.ater_allData_RUN2_XGBOOST,RMSE,1.855,reproduced_adapted
+D14,calibration | RUN3,DNN,Periparus.ater_allData_RUN3_DNN,Rsquared,0.672,reproduced_adapted
+D14,calibration | RUN3,DNN,Periparus.ater_allData_RUN3_DNN,Rsquared_aj,0.668,reproduced_adapted
+D14,calibration | RUN3,DNN,Periparus.ater_allData_RUN3_DNN,RMSE,2.285,reproduced_adapted
+D14,calibration | RUN3,GBM,Periparus.ater_allData_RUN3_GBM,Rsquared,0.8,reproduced_adapted
+D14,calibration | RUN3,GBM,Periparus.ater_allData_RUN3_GBM,Rsquared_aj,0.797,reproduced_adapted
+D14,calibration | RUN3,GBM,Periparus.ater_allData_RUN3_GBM,RMSE,2.05,reproduced_adapted
+D14,calibration | RUN3,GLM,Periparus.ater_allData_RUN3_GLM,Rsquared,0.567,reproduced_adapted
+D14,calibration | RUN3,GLM,Periparus.ater_allData_RUN3_GLM,Rsquared_aj,0.562,reproduced_adapted
+D14,calibration | RUN3,GLM,Periparus.ater_allData_RUN3_GLM,RMSE,2.636,reproduced_adapted
+D14,calibration | RUN3,MARS,Periparus.ater_allData_RUN3_MARS,Rsquared,0.61,reproduced_adapted
+D14,calibration | RUN3,MARS,Periparus.ater_allData_RUN3_MARS,Rsquared_aj,0.605,reproduced_adapted
+D14,calibration | RUN3,MARS,Periparus.ater_allData_RUN3_MARS,RMSE,2.504,reproduced_adapted
+D14,calibration | RUN3,RF,Periparus.ater_allData_RUN3_RF,Rsquared,0.909,reproduced_adapted
+D14,calibration | RUN3,RF,Periparus.ater_allData_RUN3_RF,Rsquared_aj,0.908,reproduced_adapted
+D14,calibration | RUN3,RF,Periparus.ater_allData_RUN3_RF,RMSE,1.359,reproduced_adapted
+D14,calibration | RUN3,XGBOOST,Periparus.ater_allData_RUN3_XGBOOST,Rsquared,0.624,reproduced_adapted
+D14,calibration | RUN3,XGBOOST,Periparus.ater_allData_RUN3_XGBOOST,Rsquared_aj,0.62,reproduced_adapted
+D14,calibration | RUN3,XGBOOST,Periparus.ater_allData_RUN3_XGBOOST,RMSE,2.533,reproduced_adapted
+D14,calibration | RUN4,DNN,Periparus.ater_allData_RUN4_DNN,Rsquared,0.616,reproduced_adapted
+D14,calibration | RUN4,DNN,Periparus.ater_allData_RUN4_DNN,Rsquared_aj,0.613,reproduced_adapted
+D14,calibration | RUN4,DNN,Periparus.ater_allData_RUN4_DNN,RMSE,1.928,reproduced_adapted
+D14,calibration | RUN4,GBM,Periparus.ater_allData_RUN4_GBM,Rsquared,0.803,reproduced_adapted
+D14,calibration | RUN4,GBM,Periparus.ater_allData_RUN4_GBM,Rsquared_aj,0.802,reproduced_adapted
+D14,calibration | RUN4,GBM,Periparus.ater_allData_RUN4_GBM,RMSE,1.567,reproduced_adapted
+D14,calibration | RUN4,GLM,Periparus.ater_allData_RUN4_GLM,Rsquared,0.004,reproduced_adapted
+D14,calibration | RUN4,GLM,Periparus.ater_allData_RUN4_GLM,Rsquared_aj,-0.004,reproduced_adapted
+D14,calibration | RUN4,GLM,Periparus.ater_allData_RUN4_GLM,RMSE,49605941614017.7,reproduced_adapted
+D14,calibration | RUN4,MARS,Periparus.ater_allData_RUN4_MARS,Rsquared,0.643,reproduced_adapted
+D14,calibration | RUN4,MARS,Periparus.ater_allData_RUN4_MARS,Rsquared_aj,0.641,reproduced_adapted
+D14,calibration | RUN4,MARS,Periparus.ater_allData_RUN4_MARS,RMSE,1.874,reproduced_adapted
+D14,calibration | RUN4,RF,Periparus.ater_allData_RUN4_RF,Rsquared,0.903,reproduced_adapted
+D14,calibration | RUN4,RF,Periparus.ater_allData_RUN4_RF,Rsquared_aj,0.903,reproduced_adapted
+D14,calibration | RUN4,RF,Periparus.ater_allData_RUN4_RF,RMSE,1.054,reproduced_adapted
+D14,calibration | RUN4,XGBOOST,Periparus.ater_allData_RUN4_XGBOOST,Rsquared,0.627,reproduced_adapted
+D14,calibration | RUN4,XGBOOST,Periparus.ater_allData_RUN4_XGBOOST,Rsquared_aj,0.625,reproduced_adapted
+D14,calibration | RUN4,XGBOOST,Periparus.ater_allData_RUN4_XGBOOST,RMSE,1.961,reproduced_adapted
+D14,validation | RUN1,DNN,Periparus.ater_allData_RUN1_DNN,Rsquared,0.531,reproduced_adapted
+D14,validation | RUN1,DNN,Periparus.ater_allData_RUN1_DNN,Rsquared_aj,0.514,reproduced_adapted
+D14,validation | RUN1,DNN,Periparus.ater_allData_RUN1_DNN,RMSE,3.738,reproduced_adapted
+D14,validation | RUN1,GBM,Periparus.ater_allData_RUN1_GBM,Rsquared,0.454,reproduced_adapted
+D14,validation | RUN1,GBM,Periparus.ater_allData_RUN1_GBM,Rsquared_aj,0.435,reproduced_adapted
+D14,validation | RUN1,GBM,Periparus.ater_allData_RUN1_GBM,RMSE,3.996,reproduced_adapted
+D14,validation | RUN1,GLM,Periparus.ater_allData_RUN1_GLM,Rsquared,0.59,reproduced_adapted
+D14,validation | RUN1,GLM,Periparus.ater_allData_RUN1_GLM,Rsquared_aj,0.576,reproduced_adapted
+D14,validation | RUN1,GLM,Periparus.ater_allData_RUN1_GLM,RMSE,3.562,reproduced_adapted
+D14,validation | RUN1,MARS,Periparus.ater_allData_RUN1_MARS,Rsquared,0.483,reproduced_adapted
+D14,validation | RUN1,MARS,Periparus.ater_allData_RUN1_MARS,Rsquared_aj,0.465,reproduced_adapted
+D14,validation | RUN1,MARS,Periparus.ater_allData_RUN1_MARS,RMSE,3.756,reproduced_adapted
+D14,validation | RUN1,RF,Periparus.ater_allData_RUN1_RF,Rsquared,0.518,reproduced_adapted
+D14,validation | RUN1,RF,Periparus.ater_allData_RUN1_RF,Rsquared_aj,0.501,reproduced_adapted
+D14,validation | RUN1,RF,Periparus.ater_allData_RUN1_RF,RMSE,3.757,reproduced_adapted
+D14,validation | RUN1,XGBOOST,Periparus.ater_allData_RUN1_XGBOOST,Rsquared,0.453,reproduced_adapted
+D14,validation | RUN1,XGBOOST,Periparus.ater_allData_RUN1_XGBOOST,Rsquared_aj,0.434,reproduced_adapted
+D14,validation | RUN1,XGBOOST,Periparus.ater_allData_RUN1_XGBOOST,RMSE,3.924,reproduced_adapted
+D14,validation | RUN2,DNN,Periparus.ater_allData_RUN2_DNN,Rsquared,0.514,reproduced_adapted
+D14,validation | RUN2,DNN,Periparus.ater_allData_RUN2_DNN,Rsquared_aj,0.486,reproduced_adapted
+D14,validation | RUN2,DNN,Periparus.ater_allData_RUN2_DNN,RMSE,3.067,reproduced_adapted
+D14,validation | RUN2,GBM,Periparus.ater_allData_RUN2_GBM,Rsquared,0.518,reproduced_adapted
+D14,validation | RUN2,GBM,Periparus.ater_allData_RUN2_GBM,Rsquared_aj,0.49,reproduced_adapted
+D14,validation | RUN2,GBM,Periparus.ater_allData_RUN2_GBM,RMSE,2.614,reproduced_adapted
+D14,validation | RUN2,GLM,Periparus.ater_allData_RUN2_GLM,Rsquared,0.458,reproduced_adapted
+D14,validation | RUN2,GLM,Periparus.ater_allData_RUN2_GLM,Rsquared_aj,0.426,reproduced_adapted
+D14,validation | RUN2,GLM,Periparus.ater_allData_RUN2_GLM,RMSE,2.986,reproduced_adapted
+D14,validation | RUN2,MARS,Periparus.ater_allData_RUN2_MARS,Rsquared,0.324,reproduced_adapted
+D14,validation | RUN2,MARS,Periparus.ater_allData_RUN2_MARS,Rsquared_aj,0.285,reproduced_adapted
+D14,validation | RUN2,MARS,Periparus.ater_allData_RUN2_MARS,RMSE,3.288,reproduced_adapted
+D14,validation | RUN2,RF,Periparus.ater_allData_RUN2_RF,Rsquared,0.543,reproduced_adapted
+D14,validation | RUN2,RF,Periparus.ater_allData_RUN2_RF,Rsquared_aj,0.517,reproduced_adapted
+D14,validation | RUN2,RF,Periparus.ater_allData_RUN2_RF,RMSE,2.621,reproduced_adapted
+D14,validation | RUN2,XGBOOST,Periparus.ater_allData_RUN2_XGBOOST,Rsquared,0.537,reproduced_adapted
+D14,validation | RUN2,XGBOOST,Periparus.ater_allData_RUN2_XGBOOST,Rsquared_aj,0.51,reproduced_adapted
+D14,validation | RUN2,XGBOOST,Periparus.ater_allData_RUN2_XGBOOST,RMSE,2.78,reproduced_adapted
+D14,validation | RUN3,DNN,Periparus.ater_allData_RUN3_DNN,Rsquared,0.238,reproduced_adapted
+D14,validation | RUN3,DNN,Periparus.ater_allData_RUN3_DNN,Rsquared_aj,0.229,reproduced_adapted
+D14,validation | RUN3,DNN,Periparus.ater_allData_RUN3_DNN,RMSE,1.459,reproduced_adapted
+D14,validation | RUN3,GBM,Periparus.ater_allData_RUN3_GBM,Rsquared,0.192,reproduced_adapted
+D14,validation | RUN3,GBM,Periparus.ater_allData_RUN3_GBM,Rsquared_aj,0.183,reproduced_adapted
+D14,validation | RUN3,GBM,Periparus.ater_allData_RUN3_GBM,RMSE,1.495,reproduced_adapted
+D14,validation | RUN3,GLM,Periparus.ater_allData_RUN3_GLM,Rsquared,0.303,reproduced_adapted
+D14,validation | RUN3,GLM,Periparus.ater_allData_RUN3_GLM,Rsquared_aj,0.295,reproduced_adapted
+D14,validation | RUN3,GLM,Periparus.ater_allData_RUN3_GLM,RMSE,1.327,reproduced_adapted
+D14,validation | RUN3,MARS,Periparus.ater_allData_RUN3_MARS,Rsquared,0.217,reproduced_adapted
+D14,validation | RUN3,MARS,Periparus.ater_allData_RUN3_MARS,Rsquared_aj,0.208,reproduced_adapted
+D14,validation | RUN3,MARS,Periparus.ater_allData_RUN3_MARS,RMSE,1.421,reproduced_adapted
+D14,validation | RUN3,RF,Periparus.ater_allData_RUN3_RF,Rsquared,0.179,reproduced_adapted
+D14,validation | RUN3,RF,Periparus.ater_allData_RUN3_RF,Rsquared_aj,0.169,reproduced_adapted
+D14,validation | RUN3,RF,Periparus.ater_allData_RUN3_RF,RMSE,1.396,reproduced_adapted
+D14,validation | RUN3,XGBOOST,Periparus.ater_allData_RUN3_XGBOOST,Rsquared,0.074,reproduced_adapted
+D14,validation | RUN3,XGBOOST,Periparus.ater_allData_RUN3_XGBOOST,Rsquared_aj,0.063,reproduced_adapted
+D14,validation | RUN3,XGBOOST,Periparus.ater_allData_RUN3_XGBOOST,RMSE,1.966,reproduced_adapted
+D14,validation | RUN4,DNN,Periparus.ater_allData_RUN4_DNN,Rsquared,0.481,reproduced_adapted
+D14,validation | RUN4,DNN,Periparus.ater_allData_RUN4_DNN,Rsquared_aj,0.463,reproduced_adapted
+D14,validation | RUN4,DNN,Periparus.ater_allData_RUN4_DNN,RMSE,2.076,reproduced_adapted
+D14,validation | RUN4,GBM,Periparus.ater_allData_RUN4_GBM,Rsquared,0.479,reproduced_adapted
+D14,validation | RUN4,GBM,Periparus.ater_allData_RUN4_GBM,Rsquared_aj,0.461,reproduced_adapted
+D14,validation | RUN4,GBM,Periparus.ater_allData_RUN4_GBM,RMSE,1.973,reproduced_adapted
+D14,validation | RUN4,GLM,Periparus.ater_allData_RUN4_GLM,Rsquared,0.005,reproduced_adapted
+D14,validation | RUN4,GLM,Periparus.ater_allData_RUN4_GLM,Rsquared_aj,-0.03,reproduced_adapted
+D14,validation | RUN4,GLM,Periparus.ater_allData_RUN4_GLM,RMSE,11329505874.221,reproduced_adapted
+D14,validation | RUN4,MARS,Periparus.ater_allData_RUN4_MARS,Rsquared,0.406,reproduced_adapted
+D14,validation | RUN4,MARS,Periparus.ater_allData_RUN4_MARS,Rsquared_aj,0.385,reproduced_adapted
+D14,validation | RUN4,MARS,Periparus.ater_allData_RUN4_MARS,RMSE,2.261,reproduced_adapted
+D14,validation | RUN4,RF,Periparus.ater_allData_RUN4_RF,Rsquared,0.502,reproduced_adapted
+D14,validation | RUN4,RF,Periparus.ater_allData_RUN4_RF,Rsquared_aj,0.484,reproduced_adapted
+D14,validation | RUN4,RF,Periparus.ater_allData_RUN4_RF,RMSE,2.018,reproduced_adapted
+D14,validation | RUN4,XGBOOST,Periparus.ater_allData_RUN4_XGBOOST,Rsquared,0.449,reproduced_adapted
+D14,validation | RUN4,XGBOOST,Periparus.ater_allData_RUN4_XGBOOST,Rsquared_aj,0.429,reproduced_adapted
+D14,validation | RUN4,XGBOOST,Periparus.ater_allData_RUN4_XGBOOST,RMSE,2.12,reproduced_adapted
+D14,evaluation | RUN1,DNN,Periparus.ater_allData_RUN1_DNN,Rsquared,0.492,reproduced_adapted
+D14,evaluation | RUN1,DNN,Periparus.ater_allData_RUN1_DNN,Rsquared_aj,0.489,reproduced_adapted
+D14,evaluation | RUN1,DNN,Periparus.ater_allData_RUN1_DNN,RMSE,2.702,reproduced_adapted
+D14,evaluation | RUN1,GBM,Periparus.ater_allData_RUN1_GBM,Rsquared,0.497,reproduced_adapted
+D14,evaluation | RUN1,GBM,Periparus.ater_allData_RUN1_GBM,Rsquared_aj,0.494,reproduced_adapted
+D14,evaluation | RUN1,GBM,Periparus.ater_allData_RUN1_GBM,RMSE,2.789,reproduced_adapted
+D14,evaluation | RUN1,GLM,Periparus.ater_allData_RUN1_GLM,Rsquared,0.244,reproduced_adapted
+D14,evaluation | RUN1,GLM,Periparus.ater_allData_RUN1_GLM,Rsquared_aj,0.239,reproduced_adapted
+D14,evaluation | RUN1,GLM,Periparus.ater_allData_RUN1_GLM,RMSE,3.358,reproduced_adapted
+D14,evaluation | RUN1,MARS,Periparus.ater_allData_RUN1_MARS,Rsquared,0.415,reproduced_adapted
+D14,evaluation | RUN1,MARS,Periparus.ater_allData_RUN1_MARS,Rsquared_aj,0.411,reproduced_adapted
+D14,evaluation | RUN1,MARS,Periparus.ater_allData_RUN1_MARS,RMSE,2.859,reproduced_adapted
+D14,evaluation | RUN1,RF,Periparus.ater_allData_RUN1_RF,Rsquared,0.534,reproduced_adapted
+D14,evaluation | RUN1,RF,Periparus.ater_allData_RUN1_RF,Rsquared_aj,0.532,reproduced_adapted
+D14,evaluation | RUN1,RF,Periparus.ater_allData_RUN1_RF,RMSE,2.631,reproduced_adapted
+D14,evaluation | RUN1,XGBOOST,Periparus.ater_allData_RUN1_XGBOOST,Rsquared,0.459,reproduced_adapted
+D14,evaluation | RUN1,XGBOOST,Periparus.ater_allData_RUN1_XGBOOST,Rsquared_aj,0.456,reproduced_adapted
+D14,evaluation | RUN1,XGBOOST,Periparus.ater_allData_RUN1_XGBOOST,RMSE,2.825,reproduced_adapted
+D14,evaluation | RUN2,DNN,Periparus.ater_allData_RUN2_DNN,Rsquared,0.515,reproduced_adapted
+D14,evaluation | RUN2,DNN,Periparus.ater_allData_RUN2_DNN,Rsquared_aj,0.512,reproduced_adapted
+D14,evaluation | RUN2,DNN,Periparus.ater_allData_RUN2_DNN,RMSE,2.597,reproduced_adapted
+D14,evaluation | RUN2,GBM,Periparus.ater_allData_RUN2_GBM,Rsquared,0.583,reproduced_adapted
+D14,evaluation | RUN2,GBM,Periparus.ater_allData_RUN2_GBM,Rsquared_aj,0.58,reproduced_adapted
+D14,evaluation | RUN2,GBM,Periparus.ater_allData_RUN2_GBM,RMSE,2.531,reproduced_adapted
+D14,evaluation | RUN2,GLM,Periparus.ater_allData_RUN2_GLM,Rsquared,0.361,reproduced_adapted
+D14,evaluation | RUN2,GLM,Periparus.ater_allData_RUN2_GLM,Rsquared_aj,0.357,reproduced_adapted
+D14,evaluation | RUN2,GLM,Periparus.ater_allData_RUN2_GLM,RMSE,3.027,reproduced_adapted
+D14,evaluation | RUN2,MARS,Periparus.ater_allData_RUN2_MARS,Rsquared,0.413,reproduced_adapted
+D14,evaluation | RUN2,MARS,Periparus.ater_allData_RUN2_MARS,Rsquared_aj,0.41,reproduced_adapted
+D14,evaluation | RUN2,MARS,Periparus.ater_allData_RUN2_MARS,RMSE,2.856,reproduced_adapted
+D14,evaluation | RUN2,RF,Periparus.ater_allData_RUN2_RF,Rsquared,0.623,reproduced_adapted
+D14,evaluation | RUN2,RF,Periparus.ater_allData_RUN2_RF,Rsquared_aj,0.62,reproduced_adapted
+D14,evaluation | RUN2,RF,Periparus.ater_allData_RUN2_RF,RMSE,2.342,reproduced_adapted
+D14,evaluation | RUN2,XGBOOST,Periparus.ater_allData_RUN2_XGBOOST,Rsquared,0.542,reproduced_adapted
+D14,evaluation | RUN2,XGBOOST,Periparus.ater_allData_RUN2_XGBOOST,Rsquared_aj,0.539,reproduced_adapted
+D14,evaluation | RUN2,XGBOOST,Periparus.ater_allData_RUN2_XGBOOST,RMSE,2.604,reproduced_adapted
+D14,evaluation | RUN3,DNN,Periparus.ater_allData_RUN3_DNN,Rsquared,0.483,reproduced_adapted
+D14,evaluation | RUN3,DNN,Periparus.ater_allData_RUN3_DNN,Rsquared_aj,0.48,reproduced_adapted
+D14,evaluation | RUN3,DNN,Periparus.ater_allData_RUN3_DNN,RMSE,2.693,reproduced_adapted
+D14,evaluation | RUN3,GBM,Periparus.ater_allData_RUN3_GBM,Rsquared,0.565,reproduced_adapted
+D14,evaluation | RUN3,GBM,Periparus.ater_allData_RUN3_GBM,Rsquared_aj,0.563,reproduced_adapted
+D14,evaluation | RUN3,GBM,Periparus.ater_allData_RUN3_GBM,RMSE,2.673,reproduced_adapted
+D14,evaluation | RUN3,GLM,Periparus.ater_allData_RUN3_GLM,Rsquared,0.471,reproduced_adapted
+D14,evaluation | RUN3,GLM,Periparus.ater_allData_RUN3_GLM,Rsquared_aj,0.467,reproduced_adapted
+D14,evaluation | RUN3,GLM,Periparus.ater_allData_RUN3_GLM,RMSE,2.753,reproduced_adapted
+D14,evaluation | RUN3,MARS,Periparus.ater_allData_RUN3_MARS,Rsquared,0.506,reproduced_adapted
+D14,evaluation | RUN3,MARS,Periparus.ater_allData_RUN3_MARS,Rsquared_aj,0.503,reproduced_adapted
+D14,evaluation | RUN3,MARS,Periparus.ater_allData_RUN3_MARS,RMSE,2.662,reproduced_adapted
+D14,evaluation | RUN3,RF,Periparus.ater_allData_RUN3_RF,Rsquared,0.578,reproduced_adapted
+D14,evaluation | RUN3,RF,Periparus.ater_allData_RUN3_RF,Rsquared_aj,0.576,reproduced_adapted
+D14,evaluation | RUN3,RF,Periparus.ater_allData_RUN3_RF,RMSE,2.502,reproduced_adapted
+D14,evaluation | RUN3,XGBOOST,Periparus.ater_allData_RUN3_XGBOOST,Rsquared,0.422,reproduced_adapted
+D14,evaluation | RUN3,XGBOOST,Periparus.ater_allData_RUN3_XGBOOST,Rsquared_aj,0.419,reproduced_adapted
+D14,evaluation | RUN3,XGBOOST,Periparus.ater_allData_RUN3_XGBOOST,RMSE,2.986,reproduced_adapted
+D14,evaluation | RUN4,DNN,Periparus.ater_allData_RUN4_DNN,Rsquared,0.533,reproduced_adapted
+D14,evaluation | RUN4,DNN,Periparus.ater_allData_RUN4_DNN,Rsquared_aj,0.531,reproduced_adapted
+D14,evaluation | RUN4,DNN,Periparus.ater_allData_RUN4_DNN,RMSE,2.552,reproduced_adapted
+D14,evaluation | RUN4,GBM,Periparus.ater_allData_RUN4_GBM,Rsquared,0.581,reproduced_adapted
+D14,evaluation | RUN4,GBM,Periparus.ater_allData_RUN4_GBM,Rsquared_aj,0.578,reproduced_adapted
+D14,evaluation | RUN4,GBM,Periparus.ater_allData_RUN4_GBM,RMSE,2.547,reproduced_adapted
+D14,evaluation | RUN4,GLM,Periparus.ater_allData_RUN4_GLM,Rsquared,0.001,reproduced_adapted
+D14,evaluation | RUN4,GLM,Periparus.ater_allData_RUN4_GLM,Rsquared_aj,-0.005,reproduced_adapted
+D14,evaluation | RUN4,GLM,Periparus.ater_allData_RUN4_GLM,RMSE,23499172777213.3,reproduced_adapted
+D14,evaluation | RUN4,MARS,Periparus.ater_allData_RUN4_MARS,Rsquared,0.51,reproduced_adapted
+D14,evaluation | RUN4,MARS,Periparus.ater_allData_RUN4_MARS,Rsquared_aj,0.507,reproduced_adapted
+D14,evaluation | RUN4,MARS,Periparus.ater_allData_RUN4_MARS,RMSE,2.643,reproduced_adapted
+D14,evaluation | RUN4,RF,Periparus.ater_allData_RUN4_RF,Rsquared,0.574,reproduced_adapted
+D14,evaluation | RUN4,RF,Periparus.ater_allData_RUN4_RF,Rsquared_aj,0.571,reproduced_adapted
+D14,evaluation | RUN4,RF,Periparus.ater_allData_RUN4_RF,RMSE,2.473,reproduced_adapted
+D14,evaluation | RUN4,XGBOOST,Periparus.ater_allData_RUN4_XGBOOST,Rsquared,0.535,reproduced_adapted
+D14,evaluation | RUN4,XGBOOST,Periparus.ater_allData_RUN4_XGBOOST,Rsquared_aj,0.532,reproduced_adapted
+D14,evaluation | RUN4,XGBOOST,Periparus.ater_allData_RUN4_XGBOOST,RMSE,2.626,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 0.1,auc.train,0.993072540983606,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 0.1,auc.train,0.992870081967213,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 0.1,auc.train,0.99883606557377,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 0.1,auc.train,0.998755737704918,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 0.1,auc.train,0.998859016393443,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 1,auc.train,0.991230327868852,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 1,auc.train,0.989595081967213,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 1,auc.train,0.99735737704918,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 1,auc.train,0.99610737704918,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 1,auc.train,0.997422540983607,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 10,auc.train,0.978541393442623,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 10,auc.train,0.972425819672131,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 10,auc.train,0.991775,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 10,auc.train,0.990715983606557,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 10,auc.train,0.991775,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 0.1,auc.val.avg,0.990660633333333,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 0.1,auc.val.avg,0.991888166666667,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 0.1,auc.val.avg,0.998412133333333,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 0.1,auc.val.avg,0.998454333333333,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 0.1,auc.val.avg,0.998489,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 1,auc.val.avg,0.990576266666667,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 1,auc.val.avg,0.988851766666667,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 1,auc.val.avg,0.996775166666667,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 1,auc.val.avg,0.9957545,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 1,auc.val.avg,0.9969563,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 10,auc.val.avg,0.978236866666667,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 10,auc.val.avg,0.971788733333333,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 10,auc.val.avg,0.991776566666667,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 10,auc.val.avg,0.9903805,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 10,auc.val.avg,0.991776566666667,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 0.1,auc.diff.avg,0.00490188833017742,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 0.1,auc.diff.avg,0.00452715533347363,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 0.1,auc.diff.avg,0.000739128676625311,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 0.1,auc.diff.avg,0.000709322266638623,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 0.1,auc.diff.avg,0.000667281997335012,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 1,auc.diff.avg,0.00271706690511253,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 1,auc.diff.avg,0.0054511421067396,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 1,auc.diff.avg,0.0013078225050845,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 1,auc.diff.avg,0.00186139257311171,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 1,auc.diff.avg,0.00124541150852091,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 10,auc.diff.avg,0.00235940593309492,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 10,auc.diff.avg,0.00338637256469598,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 10,auc.diff.avg,0.00246638023003014,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 10,auc.diff.avg,0.00160979337260676,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 10,auc.diff.avg,0.00246638023003014,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 0.1,cbi.val.avg,0.8864,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 0.1,cbi.val.avg,0.838,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 0.1,cbi.val.avg,0.9008,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 0.1,cbi.val.avg,0.9294,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 0.1,cbi.val.avg,0.9062,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 1,cbi.val.avg,0.8596,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 1,cbi.val.avg,0.8734,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 1,cbi.val.avg,0.8338,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 1,cbi.val.avg,0.8614,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 1,cbi.val.avg,0.902,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 10,cbi.val.avg,0.8646,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 10,cbi.val.avg,0.8078,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 10,cbi.val.avg,0.8418,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 10,cbi.val.avg,0.9468,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 10,cbi.val.avg,0.8418,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 0.1,or.10p.avg,0.122666666666667,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 0.1,or.10p.avg,0.114,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 0.1,or.10p.avg,0.122333333333333,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 0.1,or.10p.avg,0.122666666666667,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 0.1,or.10p.avg,0.138666666666667,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 1,or.10p.avg,0.123333333333333,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 1,or.10p.avg,0.123,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 1,or.10p.avg,0.122333333333333,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 1,or.10p.avg,0.106,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 1,or.10p.avg,0.114,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 10,or.10p.avg,0.106333333333333,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 10,or.10p.avg,0.098,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 10,or.10p.avg,0.107,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 10,or.10p.avg,0.098,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 10,or.10p.avg,0.107,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 0.1,AICc,2875.87146069615,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 0.1,AICc,2878.80623282265,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 0.1,AICc,2204.19695993839,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 0.1,AICc,2070.27183872138,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 0.1,AICc,2250.75084813472,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 1,AICc,2702.99307836741,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 1,AICc,2907.39474486708,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 1,AICc,2229.15384269577,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 1,AICc,2222.99309634463,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 1,AICc,2205.52495924518,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 10,AICc,2761.24672481437,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 10,AICc,2723.05532826116,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 10,AICc,2468.68604380491,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 10,AICc,2561.90663059755,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 10,AICc,2468.68604380491,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 0.1,delta.AICc,805.599621974769,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 0.1,delta.AICc,808.534394101261,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 0.1,delta.AICc,133.925121217005,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 0.1,delta.AICc,0,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 0.1,delta.AICc,180.47900941333,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 1,delta.AICc,632.72123964603,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 1,delta.AICc,837.122906145691,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 1,delta.AICc,158.882003974384,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 1,delta.AICc,152.72125762324,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 1,delta.AICc,135.253120523798,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 10,delta.AICc,690.974886092987,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 10,delta.AICc,652.783489539777,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 10,delta.AICc,398.414205083523,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 10,delta.AICc,491.63479187617,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 10,delta.AICc,398.414205083523,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 0.1,ncoef,17,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 0.1,ncoef,15,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 0.1,ncoef,56,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 0.1,ncoef,26,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 0.1,ncoef,62,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 1,ncoef,13,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 1,ncoef,12,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 1,ncoef,23,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 1,ncoef,18,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 1,ncoef,21,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,L | 10,ncoef,7,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,Q | 10,ncoef,6,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,P | 10,ncoef,9,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,LQ | 10,ncoef,9,reproduced_adapted
+D15,expert-filtered presences; global background; random 5-fold,maxnet,QP | 10,ncoef,9,reproduced_adapted
+dispersalENM,virtual species spatial block tuning,maxnet,L | 1,auc.train,0.924412666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 1,auc.train,0.923315,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 1,auc.train,0.910338,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 1,auc.train,0.924474333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 1,auc.train,0.924459666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 1,auc.train,0.924499,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 1,auc.train,0.924524666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 1.5,auc.train,0.924424333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 1.5,auc.train,0.923289,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 1.5,auc.train,0.901211666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 1.5,auc.train,0.924474,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 1.5,auc.train,0.924480666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 1.5,auc.train,0.924514666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 1.5,auc.train,0.924525,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 2,auc.train,0.924345,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 2,auc.train,0.923196,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 2,auc.train,0.891795333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 2,auc.train,0.924395,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 2,auc.train,0.924422666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 2,auc.train,0.924452666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 2,auc.train,0.924491333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 2.5,auc.train,0.924276,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 2.5,auc.train,0.923038,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 2.5,auc.train,0.882053,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 2.5,auc.train,0.924312333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 2.5,auc.train,0.924342333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 2.5,auc.train,0.924352333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 2.5,auc.train,0.92437,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 3,auc.train,0.924196,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 3,auc.train,0.923023333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 3,auc.train,0.872801333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 3,auc.train,0.924233333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 3,auc.train,0.924280333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 3,auc.train,0.924269666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 3,auc.train,0.924312333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 1,auc.val.avg,0.854018832151061,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 1,auc.val.avg,0.852552906883435,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 1,auc.val.avg,0.850999866386664,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 1,auc.val.avg,0.853807628431458,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 1,auc.val.avg,0.85402570488701,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 1,auc.val.avg,0.853779503189136,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 1,auc.val.avg,0.853945212764722,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 1.5,auc.val.avg,0.854119290330748,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 1.5,auc.val.avg,0.852725356732779,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 1.5,auc.val.avg,0.841553859101457,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 1.5,auc.val.avg,0.853829936935672,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 1.5,auc.val.avg,0.854170550017646,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 1.5,auc.val.avg,0.853745936432688,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 1.5,auc.val.avg,0.853968318989283,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 2,auc.val.avg,0.85434227264706,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 2,auc.val.avg,0.852707366177253,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 2,auc.val.avg,0.821391855326991,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 2,auc.val.avg,0.854045027128273,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 2,auc.val.avg,0.854476658278072,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 2,auc.val.avg,0.853939937960181,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 2,auc.val.avg,0.854160007406946,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 2.5,auc.val.avg,0.854253363530161,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 2.5,auc.val.avg,0.852732496555485,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 2.5,auc.val.avg,0.792430179584225,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 2.5,auc.val.avg,0.854195767633501,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 2.5,auc.val.avg,0.85442467707718,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 2.5,auc.val.avg,0.854283463223355,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 2.5,auc.val.avg,0.854514257058524,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 3,auc.val.avg,0.854603906535869,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 3,auc.val.avg,0.853130813643859,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 3,auc.val.avg,0.765996775806525,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 3,auc.val.avg,0.854416626546419,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 3,auc.val.avg,0.854652891707494,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 3,auc.val.avg,0.854240563280837,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 3,auc.val.avg,0.854358052935138,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 1,auc.diff.avg,0.0616621197351637,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 1,auc.diff.avg,0.061558077428105,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 1,auc.diff.avg,0.0512038693523321,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 1,auc.diff.avg,0.0621067308123973,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 1,auc.diff.avg,0.0617388421535769,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 1,auc.diff.avg,0.0622567370222034,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 1,auc.diff.avg,0.0621013865955903,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 1.5,auc.diff.avg,0.0615225139935741,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 1.5,auc.diff.avg,0.0614072095733397,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 1.5,auc.diff.avg,0.05297117247314,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 1.5,auc.diff.avg,0.0618604251790506,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 1.5,auc.diff.avg,0.0615300945113542,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 1.5,auc.diff.avg,0.0619960553830007,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 1.5,auc.diff.avg,0.0618104095747899,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 2,auc.diff.avg,0.0612095475615894,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 2,auc.diff.avg,0.0613650140629698,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 2,auc.diff.avg,0.0652783815798375,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 2,auc.diff.avg,0.0615783630964335,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 2,auc.diff.avg,0.0611840792060504,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 2,auc.diff.avg,0.0617469328207724,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 2,auc.diff.avg,0.0615429134471795,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 2.5,auc.diff.avg,0.0611995561871233,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 2.5,auc.diff.avg,0.0612432535046799,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 2.5,auc.diff.avg,0.0854975083842412,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 2.5,auc.diff.avg,0.0612908367281381,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 2.5,auc.diff.avg,0.061130243089363,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 2.5,auc.diff.avg,0.061289149410294,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 2.5,auc.diff.avg,0.0610829141970875,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 3,auc.diff.avg,0.0607542791630456,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 3,auc.diff.avg,0.0608208851541949,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 3,auc.diff.avg,0.101598684221318,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 3,auc.diff.avg,0.0609570780412558,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 3,auc.diff.avg,0.0607883568524721,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 3,auc.diff.avg,0.0612224262797462,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 3,auc.diff.avg,0.0611239989334471,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 1,cbi.val.avg,0.3135,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 1,cbi.val.avg,0.329,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 1,cbi.val.avg,0.8695,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 1,cbi.val.avg,0.32275,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 1,cbi.val.avg,0.325,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 1,cbi.val.avg,0.3555,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 1,cbi.val.avg,0.302,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 1.5,cbi.val.avg,0.3465,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 1.5,cbi.val.avg,0.30075,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 1.5,cbi.val.avg,0.9055,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 1.5,cbi.val.avg,0.29525,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 1.5,cbi.val.avg,0.29225,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 1.5,cbi.val.avg,0.293,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 1.5,cbi.val.avg,0.293,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 2,cbi.val.avg,0.305,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 2,cbi.val.avg,0.3115,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 2,cbi.val.avg,0.852,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 2,cbi.val.avg,0.309,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 2,cbi.val.avg,0.3125,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 2,cbi.val.avg,0.295,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 2,cbi.val.avg,0.32775,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 2.5,cbi.val.avg,0.3345,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 2.5,cbi.val.avg,0.296,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 2.5,cbi.val.avg,0.766,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 2.5,cbi.val.avg,0.297,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 2.5,cbi.val.avg,0.37,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 2.5,cbi.val.avg,0.328,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 2.5,cbi.val.avg,0.3095,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 3,cbi.val.avg,0.29375,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 3,cbi.val.avg,0.331,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 3,cbi.val.avg,0.598,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 3,cbi.val.avg,0.319,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 3,cbi.val.avg,0.34275,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 3,cbi.val.avg,0.34225,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 3,cbi.val.avg,0.318,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 1,or.10p.avg,0.153333333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 1,or.10p.avg,0.156666666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 1,or.10p.avg,0.19,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 1,or.10p.avg,0.14,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 1,or.10p.avg,0.153333333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 1,or.10p.avg,0.14,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 1,or.10p.avg,0.14,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 1.5,or.10p.avg,0.153333333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 1.5,or.10p.avg,0.156666666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 1.5,or.10p.avg,0.176666666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 1.5,or.10p.avg,0.15,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 1.5,or.10p.avg,0.153333333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 1.5,or.10p.avg,0.15,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 1.5,or.10p.avg,0.146666666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 2,or.10p.avg,0.153333333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 2,or.10p.avg,0.153333333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 2,or.10p.avg,0.166666666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 2,or.10p.avg,0.15,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 2,or.10p.avg,0.153333333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 2,or.10p.avg,0.153333333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 2,or.10p.avg,0.15,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 2.5,or.10p.avg,0.156666666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 2.5,or.10p.avg,0.163333333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 2.5,or.10p.avg,0.153333333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 2.5,or.10p.avg,0.153333333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 2.5,or.10p.avg,0.16,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 2.5,or.10p.avg,0.156666666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 2.5,or.10p.avg,0.153333333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 3,or.10p.avg,0.166666666666667,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 3,or.10p.avg,0.163333333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 3,or.10p.avg,0.15,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 3,or.10p.avg,0.153333333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 3,or.10p.avg,0.163333333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 3,or.10p.avg,0.16,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 3,or.10p.avg,0.163333333333333,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 1,AICc,5931.00749728782,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 1,AICc,5936.14929706102,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 1,AICc,6082.51010698946,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 1,AICc,5923.10897387064,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 1,AICc,5930.41793392576,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 1,AICc,5923.61688670774,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 1,AICc,5922.54494926556,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 1.5,AICc,5933.25516538338,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 1.5,AICc,5938.62415896774,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 1.5,AICc,6126.45473230859,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 1.5,AICc,5925.46050137191,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 1.5,AICc,5932.60276428867,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 1.5,AICc,5925.86547919908,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 1.5,AICc,5924.8441465659,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 2,AICc,5935.97134846992,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 2,AICc,5942.02445845846,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 2,AICc,6173.57006036616,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 2,AICc,5928.30055253162,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 2,AICc,5935.24542152488,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 2,AICc,5928.56838150444,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 2,AICc,5927.6026520116,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 2.5,AICc,5939.09366414313,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 2.5,AICc,5946.32905474063,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 2.5,AICc,6222.86422641783,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 2.5,AICc,5931.56825315381,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 2.5,AICc,5938.29794777527,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 2.5,AICc,5931.70242500417,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 2.5,AICc,5930.78782762472,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 3,AICc,5942.57781896632,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 3,AICc,5946.94974913664,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 3,AICc,6273.82266514017,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 3,AICc,5935.20862984687,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 3,AICc,5941.68762966316,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 3,AICc,5935.1780995,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 3,AICc,5934.31651698939,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 1,delta.AICc,8.46254802226213,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 1,delta.AICc,13.604347795459,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 1,delta.AICc,159.965157723907,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 1,delta.AICc,0.564024605084342,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 1,delta.AICc,7.87298466020002,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 1,delta.AICc,1.07193744218603,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 1,delta.AICc,0,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 1.5,delta.AICc,10.7102161178282,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 1.5,delta.AICc,16.0792097021858,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 1.5,delta.AICc,203.909783043031,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 1.5,delta.AICc,2.91555210635761,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 1.5,delta.AICc,10.0578150231177,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 1.5,delta.AICc,3.32052993351863,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 1.5,delta.AICc,2.29919730034635,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 2,delta.AICc,13.4263992043598,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 2,delta.AICc,19.4795091929,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 2,delta.AICc,251.025111100607,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 2,delta.AICc,5.75560326605864,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 2,delta.AICc,12.7004722593265,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 2,delta.AICc,6.02343223887965,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 2,delta.AICc,5.05770274604038,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 2.5,delta.AICc,16.5487148775701,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 2.5,delta.AICc,23.7841054750697,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 2.5,delta.AICc,300.319277152271,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 2.5,delta.AICc,9.02330388824976,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 2.5,delta.AICc,15.7529985097162,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 2.5,delta.AICc,9.15747573861336,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 2.5,delta.AICc,8.24287835916039,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 3,delta.AICc,20.0328697007653,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 3,delta.AICc,24.4047998710857,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 3,delta.AICc,351.277715874612,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 3,delta.AICc,12.6636805813114,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 3,delta.AICc,19.1426803976083,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 3,delta.AICc,12.6331502344428,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 3,delta.AICc,11.7715677238302,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 1,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 1,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 1,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 1,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 1,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 1,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 1,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 1.5,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 1.5,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 1.5,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 1.5,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 1.5,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 1.5,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 1.5,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 2,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 2,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 2,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 2,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 2,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 2,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 2,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 2.5,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 2.5,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 2.5,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 2.5,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 2.5,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 2.5,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 2.5,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,L | 3,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,Q | 3,ncoef,2,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,P | 3,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQ | 3,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LP | 3,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,QP | 3,ncoef,3,teaching_simulation
+dispersalENM,virtual species spatial block tuning,maxnet,LQP | 3,ncoef,3,teaching_simulation
