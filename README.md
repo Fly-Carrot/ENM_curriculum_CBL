@@ -1,5 +1,15 @@
 # ENM Curriculum for Beginners
 
+> 本仓库最初由[乔慧捷老师的 ENM Curriculum](https://github.com/qiaohj/ENM_curriculum) fork 而来。下方英文课程提纲和原始脚本予以保留；新增的中文学习注释由本仓库维护者独立整理，不代表乔老师或课程的官方说明。感谢乔老师开放课程代码，让我们能够逐步理解物种分布模型的建模思路。原始代码采用 [MIT 许可](LICENSE)，原版权声明保留在 `LICENSE` 中。
+
+## 中文入口
+
+- [学习导航：从生态问题走到模型地图](docs/学习导航.md)——按问题串起 D1–D15，并列出各脚本的输入与用途。
+- [方法理解：读懂模型输出与边界](docs/方法理解.md)——解释出现点、背景点、适宜性、验证和外推。
+- [来源与致谢](docs/来源与致谢.md)——分清原课程代码、我们的注释和外部数据。
+
+这些文档是学习材料。它们没有把课程演示自动升级为可直接用于管理决策的预测，也没有声称本仓库所有脚本都能在空白 R 会话中逐个独立运行。仓库没有随附 `Data/`、`Figures/` 等完整数据目录；运行前请先阅读[学习导航的准备说明](docs/学习导航.md#运行前先看这里)。
+
 ## Day 0: Environment Setup, Toolchain Installation, and Course Asset Preparation
 + **1. Scientific Computing & Geospatial Software Toolchain**
   + Installing the core statistical environment: **R** (>= 4.3) and **RStudio Desktop** (or VS Code with R extension).
